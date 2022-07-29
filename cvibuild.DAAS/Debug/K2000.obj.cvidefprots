@@ -1,0 +1,35 @@
+[k2000_Init]
+Class="Function"
+Prototype="void k2000_Init();"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\K2000.c:153:1"
+
+[k2000_LoadCallback]
+Class="Function"
+Prototype="void k2000_LoadCallback(int menubar, int menuItem, void *callbackData, int panel);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\K2000.c:405:1"
+
+[k2000_SaveCallback]
+Class="Function"
+Prototype="void k2000_SaveCallback(int menubar, int menuItem, void *callbackData, int panel);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\K2000.c:447:1"
+
+[k2000_ChannelControlCallback]
+Class="Function"
+Prototype="int k2000_ChannelControlCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\K2000.c:473:1"
+
+[k2000_ChannelSetupCallback]
+Class="Function"
+Prototype="void k2000_ChannelSetupCallback(int menubar, int menuItem, void *callbackData, int panel);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\K2000.c:511:1"
+
+[k2000_ControlCallback]
+Class="Function"
+Prototype="int k2000_ControlCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\K2000.c:540:1"
+
+[k2000_ControlPanelCallback]
+Class="Function"
+Prototype="int k2000_ControlPanelCallback(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\K2000.c:830:1"
+

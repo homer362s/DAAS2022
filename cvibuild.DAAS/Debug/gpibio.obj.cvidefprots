@@ -1,0 +1,165 @@
+[gpibPrint]
+Class="Function"
+Prototype="void gpibPrint(struct gpibiostruct *dev, const char *format, ...);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\gpibio.c:93:1"
+
+[charRecognition]
+Class="Function"
+Prototype="void charRecognition(char type, void *arg, void *buffer);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\gpibio.c:164:1"
+
+[gpib_GetDoubleVal]
+Class="Function"
+Prototype="double gpib_GetDoubleVal(struct gpibiostruct *dev, char *msg);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\gpibio.c:193:1"
+
+[gpib_GetCharVal]
+Class="Function"
+Prototype="void gpib_GetCharVal(struct gpibiostruct *dev, char *msg, char *ret);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\gpibio.c:202:1"
+
+[gpib_GetIntVal]
+Class="Function"
+Prototype="int gpib_GetIntVal(struct gpibiostruct *dev, char *msg);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\gpibio.c:208:1"
+
+[gpibio_Init]
+Class="Function"
+Prototype="void gpibio_Init();"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\gpibio.c:219:1"
+
+[gpibio_ScanforConnectedDevs]
+Class="Function"
+Prototype="void gpibio_ScanforConnectedDevs();"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\gpibio.c:245:1"
+
+[gpibio_DeviceMatch]
+Class="Function"
+Prototype="int gpibio_DeviceMatch(struct gpibiostruct *dev, char *cmd, char *id);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\gpibio.c:259:1"
+
+[gpibio_Exit]
+Class="Function"
+Prototype="void gpibio_Exit();"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\gpibio.c:275:1"
+
+[gpibio_CreateDevice]
+Class="Function"
+Prototype="struct gpibiostruct *gpibio_CreateDevice(int id, struct devTypeStruct *devType, char *label, unsigned short paddr, unsigned short saddr, int logio);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\gpibio.c:304:1"
+
+[gpibio_GetStatusByte]
+Class="Function"
+Prototype="int gpibio_GetStatusByte(struct gpibiostruct *dev, short *status);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\gpibio.c:351:1"
+
+[gpibio_SRQ]
+Class="Function"
+Prototype="int gpibio_SRQ(struct gpibiostruct *dev);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\gpibio.c:372:1"
+
+[gpibio_In]
+Class="Function"
+Prototype="int gpibio_In(struct gpibiostruct *dev, char *msg_in);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\gpibio.c:395:1"
+
+[gpibio_Out]
+Class="Function"
+Prototype="int gpibio_Out(struct gpibiostruct *dev, char *cmd);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\gpibio.c:417:1"
+
+[gpibio_Local]
+Class="Function"
+Prototype="int gpibio_Local(int done, struct gpibiostruct *dev);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\gpibio.c:437:1"
+
+[gpibio_Remote]
+Class="Function"
+Prototype="int gpibio_Remote(struct gpibiostruct *dev);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\gpibio.c:459:1"
+
+[gpibio_Clear]
+Class="Function"
+Prototype="int gpibio_Clear(struct gpibiostruct *dev);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\gpibio.c:480:1"
+
+[gpibio_Addr]
+Class="Function"
+Prototype="int gpibio_Addr(struct gpibiostruct *dev);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\gpibio.c:495:1"
+
+[devPanel_UpdateReadings]
+Class="Function"
+Prototype="void devPanel_UpdateReadings();"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\gpibio.c:502:1"
+
+[devPanel_Add]
+Class="Function"
+Prototype="void devPanel_Add(int panel, void *ptr, void (*UpdateReadings)(int, void *));"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\gpibio.c:514:1"
+
+[devPanel_Remove]
+Class="Function"
+Prototype="void devPanel_Remove(int panel);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\gpibio.c:525:1"
+
+[LoadDeviceSetupCallback]
+Class="Function"
+Prototype="int LoadDeviceSetupCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\gpibio.c:549:1"
+
+[SaveDeviceSetupCallback]
+Class="Function"
+Prototype="int SaveDeviceSetupCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\gpibio.c:577:1"
+
+[AddDeviceControlCallback]
+Class="Function"
+Prototype="int AddDeviceControlCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\gpibio.c:602:1"
+
+[AddDeviceCallback]
+Class="Function"
+Prototype="int AddDeviceCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\gpibio.c:660:1"
+
+[devTypeList_AddItem]
+Class="Function"
+Prototype="void devTypeList_AddItem(struct devTypeStruct *devType);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\gpibio.c:701:1"
+
+[DevListCallback]
+Class="Function"
+Prototype="int DevListCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\gpibio.c:713:1"
+
+[SetupPanelCallback]
+Class="Function"
+Prototype="int SetupPanelCallback(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\gpibio.c:752:1"
+
+[ifcControlCallback]
+Class="Function"
+Prototype="int ifcControlCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\gpibio.c:859:1"
+
+[DevControlCallback]
+Class="Function"
+Prototype="int DevControlCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\gpibio.c:1057:1"
+
+[OperateDevCallback]
+Class="Function"
+Prototype="void OperateDevCallback(int menubar, int menuItem, void *callbackData, int panel);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\gpibio.c:1095:1"
+
+[dev_StoreResponse]
+Class="Function"
+Prototype="void dev_StoreResponse(struct gpibiostruct *dev, char *rsp);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\gpibio.c:1104:1"
+
+[dev_StoreCommand]
+Class="Function"
+Prototype="void dev_StoreCommand(struct gpibiostruct *dev, char *cmd);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\gpibio.c:1129:1"
+

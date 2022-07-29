@@ -1,0 +1,65 @@
+[USB1808_PanelCallback]
+Class="Function"
+Prototype="int USB1808_PanelCallback(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\USB-1808.c:60:1"
+
+[USB1808_ControlCallback]
+Class="Function"
+Prototype="int USB1808_ControlCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\USB-1808.c:77:1"
+
+[USB1808_MenuCallback]
+Class="Function"
+Prototype="void USB1808_MenuCallback(int menbar, int menuItem, void *callbackData, int panel);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\USB-1808.c:135:1"
+
+[USB1808_MeasureControlCallback]
+Class="Function"
+Prototype="int USB1808_MeasureControlCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\USB-1808.c:200:1"
+
+[USB1808_IndexFromRange]
+Class="Function"
+Prototype="int USB1808_IndexFromRange(int val);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\USB-1808.c:261:1"
+
+[USB1808_UpdateMeasurePanel]
+Class="Function"
+Prototype="void USB1808_UpdateMeasurePanel(struct port *port);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\USB-1808.c:273:1"
+
+[USB1808_Create]
+Class="Function"
+Prototype="void USB1808_Create(struct MCCdevType *dev);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\USB-1808.c:285:1"
+
+[USB1808_Remove]
+Class="Function"
+Prototype="void USB1808_Remove(void *ptr);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\USB-1808.c:320:1"
+
+[USB1808Operate]
+Class="Function"
+Prototype="void USB1808Operate(int menubar, int menuItem, void *callbackData, int panel);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\USB-1808.c:337:1"
+
+[USB1808_UpdateReadings]
+Class="Function"
+Prototype="void USB1808_UpdateReadings(int panel, void *ptr);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\USB-1808.c:373:1"
+
+[USB1808_Save]
+Class="Function"
+Prototype="void USB1808_Save(struct MCCdevType *dev);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\USB-1808.c:392:1"
+
+[USB1808_Load]
+Class="Function"
+Prototype="void USB1808_Load(struct MCCdevType *dev);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\USB-1808.c:401:1"
+
+[USB1808_Init]
+Class="Function"
+Prototype="void USB1808_Init();"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\USB-1808.c:416:1"
+

@@ -1,0 +1,82 @@
+-nologo
+-out:c:\Users\user\Desktop\DAAS2022\cvibuild.DAAS\Debug\DAASdbg.exe
+-arch:x86
+-timestamp
+-debug:2
+-project:c:\Users\user\Desktop\DAAS2022\DAAS.prj
+-res:c:\Users\user\Desktop\DAAS2022\cvibuild.DAAS\Debug\resources.res
+-entry:_CVIWinMainStartupCodeForDebugging@0
+-base:0x400000
+-linked:c:\Users\user\Desktop\DAAS2022\cvibuild.DAAS\Debug\linkersummary.txt
+-dlldeps:c:\Users\user\Desktop\DAAS2022\cvibuild.DAAS\Debug\dlldependencies.txt
+-licensing:c:\Users\user\Desktop\DAAS2022\cvibuild.DAAS\Debug\linkerlicensing.txt
+-browsedeps:c:\Users\user\Desktop\DAAS2022\cvibuild.DAAS\Debug\moduledependencies.txt
+-map:c:\Users\user\Desktop\DAAS2022\cvibuild.DAAS\Debug\map_file.txt
+-stackreserve:131072
+-stackcommit:4096
+-in:c:\Users\user\Desktop\DAAS2022\cvibuild.DAAS\Debug\Acqchan.obj
+-in:c:\Users\user\Desktop\DAAS2022\cvibuild.DAAS\Debug\Acqcrv.obj
+-in:c:\Users\user\Desktop\DAAS2022\cvibuild.DAAS\Debug\acquire.obj
+-in:c:\Users\user\Desktop\DAAS2022\cvibuild.DAAS\Debug\chanfnc.obj
+-in:c:\Users\user\Desktop\DAAS2022\cvibuild.DAAS\Debug\changen.obj
+-in:c:\Users\user\Desktop\DAAS2022\cvibuild.DAAS\Debug\Channel.obj
+-in:c:\Users\user\Desktop\DAAS2022\cvibuild.DAAS\Debug\chanops.obj
+-in:c:\Users\user\Desktop\DAAS2022\cvibuild.DAAS\Debug\curve.obj
+-in:c:\Users\user\Desktop\DAAS2022\cvibuild.DAAS\Debug\curveop.obj
+-in:c:\Users\user\Desktop\DAAS2022\cvibuild.DAAS\Debug\DAAS_main.obj
+-in:c:\Users\user\Desktop\DAAS2022\cvibuild.DAAS\Debug\DAS-1602.obj
+-in:c:\Users\user\Desktop\DAAS2022\cvibuild.DAAS\Debug\DAS-6036.obj
+-in:c:\Users\user\Desktop\DAAS2022\cvibuild.DAAS\Debug\DDA08.obj
+-in:c:\Users\user\Desktop\DAAS2022\cvibuild.DAAS\Debug\DEMO-BOARD.obj
+-in:c:\Users\user\Desktop\DAAS2022\cvibuild.DAAS\Debug\digitalSource.obj
+-in:c:\Users\user\Desktop\DAAS2022\cvibuild.DAAS\Debug\gpibio.obj
+-in:c:\Users\user\Desktop\DAAS2022\cvibuild.DAAS\Debug\graph.obj
+-in:c:\Users\user\Desktop\DAAS2022\cvibuild.DAAS\Debug\HP3245A.obj
+-in:c:\Users\user\Desktop\DAAS2022\cvibuild.DAAS\Debug\HP33120A.obj
+-in:c:\Users\user\Desktop\DAAS2022\cvibuild.DAAS\Debug\HP4156.obj
+-in:c:\Users\user\Desktop\DAAS2022\cvibuild.DAAS\Debug\HP8657B.obj
+-in:c:\Users\user\Desktop\DAAS2022\cvibuild.DAAS\Debug\itc4.obj
+-in:c:\Users\user\Desktop\DAAS2022\cvibuild.DAAS\Debug\K2000.obj
+-in:c:\Users\user\Desktop\DAAS2022\cvibuild.DAAS\Debug\K213.obj
+-in:c:\Users\user\Desktop\DAAS2022\cvibuild.DAAS\Debug\K236.obj
+-in:c:\Users\user\Desktop\DAAS2022\cvibuild.DAAS\Debug\K2400.obj
+-in:c:\Users\user\Desktop\DAAS2022\cvibuild.DAAS\Debug\List.obj
+-in:c:\Users\user\Desktop\DAAS2022\cvibuild.DAAS\Debug\LS335.obj
+-in:c:\Users\user\Desktop\DAAS2022\cvibuild.DAAS\Debug\LS340.obj
+-in:c:\Users\user\Desktop\DAAS2022\cvibuild.DAAS\Debug\MCCdevices.obj
+-in:c:\Users\user\Desktop\DAAS2022\cvibuild.DAAS\Debug\rs232.obj
+-in:c:\Users\user\Desktop\DAAS2022\cvibuild.DAAS\Debug\Source.obj
+-in:c:\Users\user\Desktop\DAAS2022\cvibuild.DAAS\Debug\Sr830.obj
+-in:c:\Users\user\Desktop\DAAS2022\cvibuild.DAAS\Debug\Sr844.obj
+-in:c:\Users\user\Desktop\DAAS2022\cvibuild.DAAS\Debug\USB-1808.obj
+-in:c:\Users\user\Desktop\DAAS2022\cvibuild.DAAS\Debug\USB-234.obj
+-in:c:\Users\user\Desktop\DAAS2022\cvibuild.DAAS\Debug\USB-PMD1208LS.obj
+-in:c:\Users\user\Desktop\DAAS2022\cvibuild.DAAS\Debug\util.obj
+-more:c:\program files (x86)\national instruments\cvi2019\bin\msvc\cvistart.lib
+-more:c:\program files (x86)\national instruments\cvi2019\bin\msvc\cvi.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2019\bin\msvc\advanlys.lib
+-more:C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86\advapi32.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2017\toolslib\toolbox\msvc\asynctmr.obj
+-more:C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86\bufferoverflowu.lib
+-more:c:\Users\Public\Documents\Measurement Computing\DAQ\C\cbw32.lib
+-more:c:\Program Files (x86)\National Instruments\Shared\CVI\Bin\msvc\cvi_db.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2019\bin\msvc\cviauto.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2019\bin\msvc\cvidotnet.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2019\bin\msvc\cvinetstreams.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2019\bin\msvc\cvinetv.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2019\bin\msvc\cvintwrk.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2019\bin\msvc\cvitdms.lib
+-more:C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86\gdi32.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2019\bin\msvc\gpib.lib
+-more:c:\Program Files (x86)\National Instruments\Shared\CVI\Bin\msvc\ivi.lib
+-more:C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86\kernel32.lib
+-more:c:\Program Files (x86)\National Instruments\Shared\CVI\Bin\msvc\NIDAQmx.lib
+-more:c:\Program Files (x86)\National Instruments\Shared\CVI\Bin\msvc\nisyscfg.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2019\bin\msvc\nivxi.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2019\bin\msvc\omp.lib
+-more:c:\Program Files (x86)\National Instruments\Shared\CVI\Bin\msvc\pid.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2019\toolslib\toolbox\msvc\toolbox.obj
+-more:C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86\user32.lib
+-more:C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86\uuid.lib
+-more:c:\Program Files (x86)\National Instruments\Shared\CVI\Bin\msvc\visa.lib
+-more:C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86\winmm.lib

@@ -1,0 +1,190 @@
+[channel_Create]
+Class="Function"
+Prototype="struct channelType *channel_Create();"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\Channel.c:63:1"
+
+[channel_AllocMem]
+Class="Function"
+Prototype="int channel_AllocMem(struct channelType *c, unsigned int pts);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\Channel.c:80:1"
+
+[channel_CopySubset]
+Class="Function"
+Prototype="struct channelType *channel_CopySubset(int offset, int pts, struct channelType *c);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\Channel.c:89:1"
+
+[channel_GetReading]
+Class="Function"
+Prototype="double channel_GetReading(struct channelType *c, int index);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\Channel.c:107:1"
+
+[channel_AddCurve]
+Class="Function"
+Prototype="void channel_AddCurve(struct channelType *chan, char *curve, char *graph);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\Channel.c:112:1"
+
+[channel_RemoveCurve]
+Class="Function"
+Prototype="void channel_RemoveCurve(struct channelType *chan, char *curve);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\Channel.c:118:1"
+
+[channel_Save]
+Class="Function"
+Prototype="void channel_Save(struct channelType *c);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\Channel.c:130:1"
+
+[channel_Load]
+Class="Function"
+Prototype="struct channelType *channel_Load();"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\Channel.c:138:1"
+
+[channel_SaveSubset]
+Class="Function"
+Prototype="void channel_SaveSubset(struct channelType *chan);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\Channel.c:158:1"
+
+[channel_FillLocation]
+Class="Function"
+Prototype="void channel_FillLocation(struct channelType *chan);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\Channel.c:176:1"
+
+[channel_InitViewPanel]
+Class="Function"
+Prototype="void channel_InitViewPanel();"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\Channel.c:199:1"
+
+[channel_UpdateViewPanel]
+Class="Function"
+Prototype="void channel_UpdateViewPanel(struct channelType *chan);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\Channel.c:222:1"
+
+[channel_UpdateViewGraph]
+Class="Function"
+Prototype="void channel_UpdateViewGraph(struct channelType *chan, int scatter);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\Channel.c:246:1"
+
+[ChannelViewDoneCallback]
+Class="Function"
+Prototype="int ChannelViewDoneCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\Channel.c:255:1"
+
+[ChannelViewScatterCallback]
+Class="Function"
+Prototype="int ChannelViewScatterCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\Channel.c:271:1"
+
+[ChannelViewGraphCallback]
+Class="Function"
+Prototype="int ChannelViewGraphCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\Channel.c:284:1"
+
+[ChannelViewSelectCallback]
+Class="Function"
+Prototype="int ChannelViewSelectCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\Channel.c:308:1"
+
+[ChannelViewWindowCallback]
+Class="Function"
+Prototype="int ChannelViewWindowCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\Channel.c:322:1"
+
+[channel_InitEditPanel]
+Class="Function"
+Prototype="void channel_InitEditPanel(struct channelType *chan, int editlabel);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\Channel.c:364:1"
+
+[channel_UpdateEditPanel]
+Class="Function"
+Prototype="void channel_UpdateEditPanel(struct channelType *chan);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\Channel.c:385:1"
+
+[ChannelLabelCallback]
+Class="Function"
+Prototype="int ChannelLabelCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\Channel.c:394:1"
+
+[channellist_GetItem]
+Class="Function"
+Prototype="struct channelType *channellist_GetItem(int i);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\Channel.c:415:1"
+
+[channellist_GetSelection]
+Class="Function"
+Prototype="struct channelType *channellist_GetSelection();"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\Channel.c:422:1"
+
+[channellist_Copy]
+Class="Function"
+Prototype="void channellist_Copy(int panel, int control);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\Channel.c:430:1"
+
+[channellist_UpdatePanel]
+Class="Function"
+Prototype="void channellist_UpdatePanel();"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\Channel.c:442:1"
+
+[channellist_AddChannel]
+Class="Function"
+Prototype="void channellist_AddChannel(struct channelType *chan);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\Channel.c:473:1"
+
+[channellist_RemoveChannel]
+Class="Function"
+Prototype="void channellist_RemoveChannel(struct channelType *chan);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\Channel.c:484:1"
+
+[ChannelSelectionCallback]
+Class="Function"
+Prototype="int ChannelSelectionCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\Channel.c:499:1"
+
+[ChannelIndexCallback]
+Class="Function"
+Prototype="int ChannelIndexCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\Channel.c:522:1"
+
+[SaveChannelsCallback]
+Class="Function"
+Prototype="int SaveChannelsCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\Channel.c:541:1"
+
+[SaveSelectedChannelsCallback]
+Class="Function"
+Prototype="int SaveSelectedChannelsCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\Channel.c:553:1"
+
+[LoadChannelsCallback]
+Class="Function"
+Prototype="int LoadChannelsCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\Channel.c:603:1"
+
+[LoadDataFileCallback]
+Class="Function"
+Prototype="void LoadDataFileCallback(int menubar, int menuItem, void *callbackData, int panel);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\Channel.c:645:1"
+
+[RemoveChannelsCallback]
+Class="Function"
+Prototype="int RemoveChannelsCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\Channel.c:721:1"
+
+[RemoveSelectedChannelsCallback]
+Class="Function"
+Prototype="int RemoveSelectedChannelsCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\Channel.c:733:1"
+
+[channelG_Init]
+Class="Function"
+Prototype="void channelG_Init();"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\Channel.c:770:1"
+
+[channelG_Exit]
+Class="Function"
+Prototype="void channelG_Exit();"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\Channel.c:786:1"
+
+[ShowChannelsCallback]
+Class="Function"
+Prototype="int ShowChannelsCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\Channel.c:805:1"
+

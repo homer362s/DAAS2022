@@ -1,0 +1,45 @@
+[chanops_Init]
+Class="Function"
+Prototype="void chanops_Init();"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\chanops.c:50:1"
+
+[InitDivideChannelsCallback]
+Class="Function"
+Prototype="void InitDivideChannelsCallback(int menubar, int menuItem, void *callbackData, int panel);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\chanops.c:64:1"
+
+[DoChannelDivisionCallback]
+Class="Function"
+Prototype="int DoChannelDivisionCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\chanops.c:83:1"
+
+[InitSubtractChannelsCallback]
+Class="Function"
+Prototype="void InitSubtractChannelsCallback(int menubar, int menuItem, void *callbackData, int panel);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\chanops.c:122:1"
+
+[DoChannelSubtractionCallback]
+Class="Function"
+Prototype="int DoChannelSubtractionCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\chanops.c:141:1"
+
+[InitMultiplyChannelsCallback]
+Class="Function"
+Prototype="void InitMultiplyChannelsCallback(int menubar, int menuItem, void *callbackData, int panel);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\chanops.c:180:1"
+
+[DoChannelMultiplicationCallback]
+Class="Function"
+Prototype="int DoChannelMultiplicationCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\chanops.c:198:1"
+
+[InitAddChannelsCallback]
+Class="Function"
+Prototype="void InitAddChannelsCallback(int menubar, int menuItem, void *callbackData, int panel);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\chanops.c:274:1"
+
+[DoChannelAdditionCallback]
+Class="Function"
+Prototype="int DoChannelAdditionCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\chanops.c:292:1"
+

@@ -1,0 +1,100 @@
+[LS335_GetHeaterLvl]
+Class="Function"
+Prototype="void LS335_GetHeaterLvl(struct acqchanStruct *acqchan);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\LS335.c:79:1"
+
+[LS335_SetHeaterLvl]
+Class="Function"
+Prototype="void LS335_SetHeaterLvl(struct sourceStruct *src);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\LS335.c:90:1"
+
+[LS335_GetSensor]
+Class="Function"
+Prototype="void LS335_GetSensor(struct acqchanStruct *acqchan);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\LS335.c:99:1"
+
+[LS335_UpdateSensorReadings]
+Class="Function"
+Prototype="void LS335_UpdateSensorReadings(int panel, void *ptr);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\LS335.c:112:1"
+
+[LS335_UpdateHeaterSettings]
+Class="Function"
+Prototype="void LS335_UpdateHeaterSettings(int panel, struct gpibiostruct *dev);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\LS335.c:121:1"
+
+[LS335_InitControls]
+Class="Function"
+Prototype="void LS335_InitControls(int p, struct gpibiostruct *dev);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\LS335.c:135:1"
+
+[LS335PanelCallback]
+Class="Function"
+Prototype="int LS335PanelCallback(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\LS335.c:173:1"
+
+[LS335ControlCallback]
+Class="Function"
+Prototype="int LS335ControlCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\LS335.c:187:1"
+
+[LS335HeatControlCallback]
+Class="Function"
+Prototype="int LS335HeatControlCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\LS335.c:268:1"
+
+[LS335SensorControlCallback]
+Class="Function"
+Prototype="int LS335SensorControlCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\LS335.c:359:1"
+
+[LS335SendCurve]
+Class="Function"
+Prototype="int LS335SendCurve(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\LS335.c:403:1"
+
+[LS335menuCallback]
+Class="Function"
+Prototype="void LS335menuCallback(int menuBar, int menuItem, void *callbackData, int panel);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\LS335.c:429:1"
+
+[LS335_Create]
+Class="Function"
+Prototype="void *LS335_Create(struct gpibiostruct *dev);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\LS335.c:502:1"
+
+[LS335_InitGPIB]
+Class="Function"
+Prototype="int LS335_InitGPIB(struct gpibiostruct *dev);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\LS335.c:539:1"
+
+[OperateLS335]
+Class="Function"
+Prototype="void OperateLS335(int menubar, int menuItem, void *callbackData, int panel);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\LS335.c:547:1"
+
+[LS335_UpdateReadings]
+Class="Function"
+Prototype="void LS335_UpdateReadings(int panel, void *ptr);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\LS335.c:584:1"
+
+[LS335_Save]
+Class="Function"
+Prototype="void LS335_Save(struct gpibiostruct *dev);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\LS335.c:596:1"
+
+[LS335_Load]
+Class="Function"
+Prototype="void LS335_Load(struct gpibiostruct *dev);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\LS335.c:625:1"
+
+[LS335_Remove]
+Class="Function"
+Prototype="void LS335_Remove(void *dev);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\LS335.c:660:1"
+
+[LS335_Init]
+Class="Function"
+Prototype="void LS335_Init();"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\LS335.c:669:1"
+

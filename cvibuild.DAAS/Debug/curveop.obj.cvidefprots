@@ -1,0 +1,390 @@
+[curveop_Init]
+Class="Function"
+Prototype="void curveop_Init();"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curveop.c:151:1"
+
+[BatchSplineInterpCallback]
+Class="Function"
+Prototype="int BatchSplineInterpCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curveop.c:180:1"
+
+[SplineInterpCallback]
+Class="Function"
+Prototype="int SplineInterpCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curveop.c:279:1"
+
+[curveop_SplineInterpCurve]
+Class="Function"
+Prototype="int curveop_SplineInterpCurve(double *spline, double *x, double *y, int offset, int pts, int i_pts, double *i_x, double *i_y);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curveop.c:356:1"
+
+[BatchRatInterpCallback]
+Class="Function"
+Prototype="int BatchRatInterpCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curveop.c:373:1"
+
+[RatInterpCallback]
+Class="Function"
+Prototype="int RatInterpCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curveop.c:457:1"
+
+[curveop_RatInterpCurve]
+Class="Function"
+Prototype="int curveop_RatInterpCurve(double *x, double *y, int offset, int pts, int i_pts, double *i_x, double *i_y);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curveop.c:521:1"
+
+[BatchPolyInterpCallback]
+Class="Function"
+Prototype="int BatchPolyInterpCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curveop.c:538:1"
+
+[KeepInterpCurveCallback]
+Class="Function"
+Prototype="int KeepInterpCurveCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curveop.c:622:1"
+
+[PolyInterpCallback]
+Class="Function"
+Prototype="int PolyInterpCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curveop.c:659:1"
+
+[curveop_PolyInterpCurve]
+Class="Function"
+Prototype="int curveop_PolyInterpCurve(double *x, double *y, int offset, int pts, int i_pts, double *i_x, double *i_y);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curveop.c:723:1"
+
+[InterpControlCallback]
+Class="Function"
+Prototype="int InterpControlCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curveop.c:740:1"
+
+[InitInterpCallback]
+Class="Function"
+Prototype="void InitInterpCallback(int menubar, int menuItem, void *callbackData, int panel);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curveop.c:760:1"
+
+[UpdateInterpPanel]
+Class="Function"
+Prototype="void UpdateInterpPanel(struct curveType *curve, int input);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curveop.c:791:1"
+
+[PolyFitCallback]
+Class="Function"
+Prototype="int PolyFitCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curveop.c:811:1"
+
+[PolyFitControlCallback]
+Class="Function"
+Prototype="int PolyFitControlCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curveop.c:879:1"
+
+[InitPolyFitCallback]
+Class="Function"
+Prototype="void InitPolyFitCallback(int menubar, int menuItem, void *callbackData, int panel);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curveop.c:899:1"
+
+[UpdatePolyFitPanel]
+Class="Function"
+Prototype="void UpdatePolyFitPanel(struct curveType *curve, int input);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curveop.c:912:1"
+
+[ExpFitCallback]
+Class="Function"
+Prototype="int ExpFitCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curveop.c:920:1"
+
+[ExpFitControlCallback]
+Class="Function"
+Prototype="int ExpFitControlCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curveop.c:977:1"
+
+[InitExpFitCallback]
+Class="Function"
+Prototype="void InitExpFitCallback(int menubar, int menuItem, void *callbackData, int panel);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curveop.c:997:1"
+
+[UpdateExpFitPanel]
+Class="Function"
+Prototype="void UpdateExpFitPanel(struct curveType *curve, int input);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curveop.c:1010:1"
+
+[LinFitCallback]
+Class="Function"
+Prototype="int LinFitCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curveop.c:1019:1"
+
+[LinFitControlCallback]
+Class="Function"
+Prototype="int LinFitControlCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curveop.c:1074:1"
+
+[InitLinFitCallback]
+Class="Function"
+Prototype="void InitLinFitCallback(int menubar, int menuItem, void *callbackData, int panel);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curveop.c:1094:1"
+
+[UpdateLinFitPanel]
+Class="Function"
+Prototype="void UpdateLinFitPanel(struct curveType *curve, int input);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curveop.c:1107:1"
+
+[PowerSpecBatchCallback]
+Class="Function"
+Prototype="int PowerSpecBatchCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curveop.c:1117:1"
+
+[PowerFreqEstimateCallback]
+Class="Function"
+Prototype="int PowerFreqEstimateCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curveop.c:1214:1"
+
+[PowerSpecCallback]
+Class="Function"
+Prototype="int PowerSpecCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curveop.c:1235:1"
+
+[PowerSpecControlCallback]
+Class="Function"
+Prototype="int PowerSpecControlCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curveop.c:1289:1"
+
+[InitPowerSpecCallback]
+Class="Function"
+Prototype="void InitPowerSpecCallback(int menubar, int menuItem, void *callbackData, int panel);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curveop.c:1309:1"
+
+[UpdatePowerSpecPanel]
+Class="Function"
+Prototype="void UpdatePowerSpecPanel(struct curveType *curve, int input);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curveop.c:1324:1"
+
+[InitAmpSpecBatchCallback]
+Class="Function"
+Prototype="int InitAmpSpecBatchCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curveop.c:1340:1"
+
+[AmpSpecBatchCallback]
+Class="Function"
+Prototype="int AmpSpecBatchCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curveop.c:1372:1"
+
+[KeepPhaseCurveCallback]
+Class="Function"
+Prototype="int KeepPhaseCurveCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curveop.c:1491:1"
+
+[KeepAmpCurveCallback]
+Class="Function"
+Prototype="int KeepAmpCurveCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curveop.c:1525:1"
+
+[AmpPhaseCallback]
+Class="Function"
+Prototype="int AmpPhaseCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curveop.c:1559:1"
+
+[Window_Compute_IIR]
+Class="Function"
+Prototype="int Window_Compute_IIR(double *y, int pts, double *win_y, char *note);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curveop.c:1627:1"
+
+[AmpPhaseControlCallback]
+Class="Function"
+Prototype="int AmpPhaseControlCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curveop.c:1704:1"
+
+[InitAmpPhaseCallback]
+Class="Function"
+Prototype="void InitAmpPhaseCallback(int menubar, int menuItem, void *callbackData, int panel);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curveop.c:1724:1"
+
+[UpdateAmpPhasePanel]
+Class="Function"
+Prototype="void UpdateAmpPhasePanel(struct curveType *curve, int input);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curveop.c:1737:1"
+
+[ACDCCallback]
+Class="Function"
+Prototype="int ACDCCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curveop.c:1747:1"
+
+[InitACDCCallback]
+Class="Function"
+Prototype="void InitACDCCallback(int menubar, int menuItem, void *callbackData, int panel);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curveop.c:1766:1"
+
+[UpdateACDCPanel]
+Class="Function"
+Prototype="void UpdateACDCPanel(struct curveType *curve, int input);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curveop.c:1781:1"
+
+[BatchSmoothCallback]
+Class="Function"
+Prototype="int BatchSmoothCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curveop.c:1787:1"
+
+[SmoothCallback]
+Class="Function"
+Prototype="int SmoothCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curveop.c:1880:1"
+
+[curveop_Smooth]
+Class="Function"
+Prototype="int curveop_Smooth(double *kernal, int k_pts, double *y, int c_pts, int offset, int pts, double *smooth_y);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curveop.c:1932:1"
+
+[curveop_SmoothingKernal]
+Class="Function"
+Prototype="int curveop_SmoothingKernal(int pts, double variance, double *kernal);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curveop.c:1950:1"
+
+[SmoothControlCallback]
+Class="Function"
+Prototype="int SmoothControlCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curveop.c:1965:1"
+
+[InitSmoothCallback]
+Class="Function"
+Prototype="void InitSmoothCallback(int menubar, int menuItem, void *callbackData, int panel);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curveop.c:2014:1"
+
+[UpdateSmoothPanel]
+Class="Function"
+Prototype="void UpdateSmoothPanel(struct curveType *curve, int input);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curveop.c:2029:1"
+
+[BatchFilterCallback]
+Class="Function"
+Prototype="int BatchFilterCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curveop.c:2035:1"
+
+[FilterCallback]
+Class="Function"
+Prototype="int FilterCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curveop.c:2122:1"
+
+[Filter_Compute]
+Class="Function"
+Prototype="int Filter_Compute(double fs, int pts, double *y, double *filter_y, char *note);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curveop.c:2167:1"
+
+[FilterControlCallback]
+Class="Function"
+Prototype="int FilterControlCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curveop.c:2346:1"
+
+[InitFilterCallback]
+Class="Function"
+Prototype="void InitFilterCallback(int menubar, int menuItem, void *callbackData, int panel);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curveop.c:2374:1"
+
+[UpdateFilterPanel]
+Class="Function"
+Prototype="void UpdateFilterPanel(struct curveType *curve, int input);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curveop.c:2389:1"
+
+[Filter_Init_Mode]
+Class="Function"
+Prototype="void Filter_Init_Mode();"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curveop.c:2400:1"
+
+[Filter_Init_Type]
+Class="Function"
+Prototype="void Filter_Init_Type();"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curveop.c:2428:1"
+
+[AscendingSortCallback]
+Class="Function"
+Prototype="int AscendingSortCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curveop.c:2469:1"
+
+[DescendingSortCallback]
+Class="Function"
+Prototype="int DescendingSortCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curveop.c:2517:1"
+
+[InitSortCallback]
+Class="Function"
+Prototype="void InitSortCallback(int menubar, int menuItem, void *callbackData, int panel);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curveop.c:2565:1"
+
+[ReverseCallback]
+Class="Function"
+Prototype="int ReverseCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curveop.c:2597:1"
+
+[InitReverseCallback]
+Class="Function"
+Prototype="void InitReverseCallback(int menubar, int menuItem, void *callbackData, int panel);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curveop.c:2631:1"
+
+[BatchDifferenceCallback]
+Class="Function"
+Prototype="int BatchDifferenceCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curveop.c:2656:1"
+
+[BatchIntegrateCallback]
+Class="Function"
+Prototype="int BatchIntegrateCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curveop.c:2744:1"
+
+[DifferenceCallback]
+Class="Function"
+Prototype="int DifferenceCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curveop.c:2832:1"
+
+[IntegrateCallback]
+Class="Function"
+Prototype="int IntegrateCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curveop.c:2882:1"
+
+[IntegDiffControlCallback]
+Class="Function"
+Prototype="int IntegDiffControlCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curveop.c:2932:1"
+
+[InitIntegDiffCallback]
+Class="Function"
+Prototype="void InitIntegDiffCallback(int menubar, int menuItem, void *callbackData, int panel);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curveop.c:2952:1"
+
+[UpdateIntegDiffPanel]
+Class="Function"
+Prototype="void UpdateIntegDiffPanel(struct curveType *curve, int input);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curveop.c:2978:1"
+
+[InitOffsetCallback]
+Class="Function"
+Prototype="void InitOffsetCallback(int menubar, int menuItem, void *callbackData, int panel);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curveop.c:2995:1"
+
+[BatchControlCallback]
+Class="Function"
+Prototype="int BatchControlCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curveop.c:3021:1"
+
+[InitBatchCallback]
+Class="Function"
+Prototype="int InitBatchCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curveop.c:3046:1"
+
+[CreateY2CurveCallback]
+Class="Function"
+Prototype="int CreateY2CurveCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curveop.c:3075:1"
+
+[CreateY1CurveCallback]
+Class="Function"
+Prototype="int CreateY1CurveCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curveop.c:3109:1"
+
+[CurveOpWindowCallback]
+Class="Function"
+Prototype="int CurveOpWindowCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curveop.c:3143:1"
+
+[CurveOpSelectCurveCallback]
+Class="Function"
+Prototype="int CurveOpSelectCurveCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curveop.c:3196:1"
+

@@ -1,0 +1,25 @@
+[k213_Init]
+Class="Function"
+Prototype="void k213_Init();"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\K213.c:88:1"
+
+[K213LoadCallback]
+Class="Function"
+Prototype="void K213LoadCallback(int menubar, int menuItem, void *callbackData, int panel);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\K213.c:194:1"
+
+[K213SaveCallback]
+Class="Function"
+Prototype="void K213SaveCallback(int menubar, int menuItem, void *callbackData, int panel);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\K213.c:216:1"
+
+[K213ControlCallback]
+Class="Function"
+Prototype="int K213ControlCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\K213.c:233:1"
+
+[K213ControlPanelCallback]
+Class="Function"
+Prototype="int K213ControlPanelCallback(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\K213.c:279:1"
+

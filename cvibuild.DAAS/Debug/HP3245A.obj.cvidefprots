@@ -1,0 +1,80 @@
+[SetHP3245aFreqLvl]
+Class="Function"
+Prototype="void SetHP3245aFreqLvl(struct sourceStruct *src);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\HP3245A.c:84:1"
+
+[GetHP3245aFreqLvl]
+Class="Function"
+Prototype="void GetHP3245aFreqLvl(struct acqchanStruct *acqchan);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\HP3245A.c:95:1"
+
+[SetHP3245aAmplLvl]
+Class="Function"
+Prototype="void SetHP3245aAmplLvl(struct sourceStruct *src);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\HP3245A.c:100:1"
+
+[GetHP3245aAmplLvl]
+Class="Function"
+Prototype="void GetHP3245aAmplLvl(struct acqchanStruct *acqchan);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\HP3245A.c:111:1"
+
+[hp3245a_UpdateControls]
+Class="Function"
+Prototype="void hp3245a_UpdateControls(int p, struct gpibiostruct *dev);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\HP3245A.c:117:1"
+
+[hp3245aControlCallback]
+Class="Function"
+Prototype="int hp3245aControlCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\HP3245A.c:144:1"
+
+[hp3245aPanelCallback]
+Class="Function"
+Prototype="int hp3245aPanelCallback(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\HP3245A.c:172:1"
+
+[hp3245aMenuCallback]
+Class="Function"
+Prototype="void hp3245aMenuCallback(int menuBar, int menuItem, void *callbackData, int panel);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\HP3245A.c:185:1"
+
+[hp3245a_Create]
+Class="Function"
+Prototype="void *hp3245a_Create(struct gpibiostruct *dev);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\HP3245A.c:204:1"
+
+[hp3245a_InitGPIB]
+Class="Function"
+Prototype="int hp3245a_InitGPIB(struct gpibiostruct *dev);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\HP3245A.c:216:1"
+
+[Operatehp3245a]
+Class="Function"
+Prototype="void Operatehp3245a(int menubar, int menuItem, void *callbackData, int panel);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\HP3245A.c:224:1"
+
+[hp3245a_UpdateReadings]
+Class="Function"
+Prototype="void hp3245a_UpdateReadings(int panel, void *ptr);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\HP3245A.c:262:1"
+
+[hp3245a_Save]
+Class="Function"
+Prototype="void hp3245a_Save(struct gpibiostruct *dev);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\HP3245A.c:271:1"
+
+[hp3245a_Load]
+Class="Function"
+Prototype="void hp3245a_Load(struct gpibiostruct *dev);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\HP3245A.c:284:1"
+
+[hp3245a_Remove]
+Class="Function"
+Prototype="void hp3245a_Remove(void *ptr);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\HP3245A.c:317:1"
+
+[hp3245a_Init]
+Class="Function"
+Prototype="void hp3245a_Init();"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\HP3245A.c:327:1"
+

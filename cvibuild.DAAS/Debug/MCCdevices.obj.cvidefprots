@@ -1,0 +1,95 @@
+[ReadAnalogue]
+Class="Function"
+Prototype="void ReadAnalogue(struct acqchanStruct *acqchan);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\MCCdevices.c:92:1"
+
+[ReadOldAnalogue]
+Class="Function"
+Prototype="void ReadOldAnalogue(struct acqchanStruct *acqchan);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\MCCdevices.c:160:1"
+
+[ReadAnalogueOut]
+Class="Function"
+Prototype="void ReadAnalogueOut(struct acqchanStruct *acqchan);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\MCCdevices.c:180:1"
+
+[SetAnalogue]
+Class="Function"
+Prototype="void SetAnalogue(struct sourceStruct *src);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\MCCdevices.c:197:1"
+
+[ReadDigital]
+Class="Function"
+Prototype="void ReadDigital(struct acqchanStruct *acqchan);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\MCCdevices.c:208:1"
+
+[ReadDigitalOut]
+Class="Function"
+Prototype="void ReadDigitalOut(struct acqchanStruct *acqchan);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\MCCdevices.c:219:1"
+
+[SetDigital]
+Class="Function"
+Prototype="void SetDigital(struct sourceStruct *src);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\MCCdevices.c:224:1"
+
+[boards_DevList_SaveItem]
+Class="Function"
+Prototype="void boards_DevList_SaveItem(struct MCCdevType *dev);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\MCCdevices.c:235:1"
+
+[boards_DevList_LoadItem]
+Class="Function"
+Prototype="int boards_DevList_LoadItem();"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\MCCdevices.c:242:1"
+
+[boards_DevList_FindItemByID]
+Class="Function"
+Prototype="struct MCCdevType *boards_DevList_FindItemByID(char *id);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\MCCdevices.c:271:1"
+
+[boards_DevTypeList_AddDev]
+Class="Function"
+Prototype="void boards_DevTypeList_AddDev(struct MCCdevTypeItem *devType);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\MCCdevices.c:291:1"
+
+[create_Port]
+Class="Function"
+Prototype="struct port *create_Port(void *dev, char *name, int type, int direction, void (*GetReading)(struct acqchanStruct *), ...);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\MCCdevices.c:332:1"
+
+[port_Save]
+Class="Function"
+Prototype="void port_Save(struct port *port);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\MCCdevices.c:426:1"
+
+[port_Load]
+Class="Function"
+Prototype="void port_Load(void *dev, struct port *port);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\MCCdevices.c:467:1"
+
+[boards_Save]
+Class="Function"
+Prototype="void boards_Save(void *dev, void (*save)(MCCdevType *));"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\MCCdevices.c:534:1"
+
+[boards_Load]
+Class="Function"
+Prototype="void boards_Load(void *dev, void (*load)(MCCdevType *));"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\MCCdevices.c:545:1"
+
+[boards_MenuCallback]
+Class="Function"
+Prototype="void boards_MenuCallback(int menubar, int menuItem, void *callbackData, int panel);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\MCCdevices.c:556:1"
+
+[boards_Create]
+Class="Function"
+Prototype="struct MCCdevType *boards_Create(struct MCCdevTypeItem *devType, int BoardNum);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\MCCdevices.c:618:1"
+
+[init_MCCdevices]
+Class="Function"
+Prototype="void init_MCCdevices();"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\MCCdevices.c:638:1"
+

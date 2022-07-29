@@ -1,0 +1,245 @@
+[CurveInfoCallback]
+Class="Function"
+Prototype="int CurveInfoCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curve.c:120:1"
+
+[RemoveSelectedCurvesCallback]
+Class="Function"
+Prototype="int RemoveSelectedCurvesCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curve.c:164:1"
+
+[InitRemoveCurvesCallback]
+Class="Function"
+Prototype="int InitRemoveCurvesCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curve.c:205:1"
+
+[SaveOneXCurvesCallback]
+Class="Function"
+Prototype="int SaveOneXCurvesCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curve.c:216:1"
+
+[SaveDTSCurvesCallback]
+Class="Function"
+Prototype="int SaveDTSCurvesCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curve.c:272:1"
+
+[SaveMATLABCurvesCallback]
+Class="Function"
+Prototype="int SaveMATLABCurvesCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curve.c:318:1"
+
+[SaveDAASCurvesCallback]
+Class="Function"
+Prototype="int SaveDAASCurvesCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curve.c:371:1"
+
+[SaveOriginCurvesCallback]
+Class="Function"
+Prototype="int SaveOriginCurvesCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curve.c:421:1"
+
+[SaveIgorCurvesCallback]
+Class="Function"
+Prototype="int SaveIgorCurvesCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curve.c:462:1"
+
+[SaveCurveSelectAllCallback]
+Class="Function"
+Prototype="int SaveCurveSelectAllCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curve.c:502:1"
+
+[InitSaveCurvesCallback]
+Class="Function"
+Prototype="int InitSaveCurvesCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curve.c:515:1"
+
+[curve_CompleteListItem]
+Class="Function"
+Prototype="char *curve_CompleteListItem(struct curveType *curve, int offset, int pts);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curve.c:540:1"
+
+[LoadCurvesCallback]
+Class="Function"
+Prototype="int LoadCurvesCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curve.c:560:1"
+
+[CreateCurveCallback]
+Class="Function"
+Prototype="int CreateCurveCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curve.c:604:1"
+
+[CurveIndexCallback]
+Class="Function"
+Prototype="int CurveIndexCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curve.c:636:1"
+
+[CurveSelectCallback]
+Class="Function"
+Prototype="int CurveSelectCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curve.c:647:1"
+
+[CurveYChanCallback]
+Class="Function"
+Prototype="int CurveYChanCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curve.c:703:1"
+
+[CurveXChanCallback]
+Class="Function"
+Prototype="int CurveXChanCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curve.c:738:1"
+
+[CurveAttrCallback]
+Class="Function"
+Prototype="int CurveAttrCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curve.c:773:1"
+
+[curve_UpdateEditPanel]
+Class="Function"
+Prototype="void curve_UpdateEditPanel(struct curveType *curve);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curve.c:849:1"
+
+[curve_InitEditPanel]
+Class="Function"
+Prototype="void curve_InitEditPanel(struct curveType *curve);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curve.c:895:1"
+
+[CurveViewMaskCallback]
+Class="Function"
+Prototype="int CurveViewMaskCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curve.c:918:1"
+
+[CurveViewDirCallback]
+Class="Function"
+Prototype="int CurveViewDirCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curve.c:950:1"
+
+[CurveViewAxisCallback]
+Class="Function"
+Prototype="int CurveViewAxisCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curve.c:971:1"
+
+[CurveViewSelectAxisCallback]
+Class="Function"
+Prototype="int CurveViewSelectAxisCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curve.c:1002:1"
+
+[CurveViewGraphCallback]
+Class="Function"
+Prototype="int CurveViewGraphCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curve.c:1026:1"
+
+[CurveViewMarkerCallback]
+Class="Function"
+Prototype="int CurveViewMarkerCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curve.c:1044:1"
+
+[CurveViewWindowCallback]
+Class="Function"
+Prototype="int CurveViewWindowCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curve.c:1075:1"
+
+[CurveViewSelectCallback]
+Class="Function"
+Prototype="int CurveViewSelectCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curve.c:1110:1"
+
+[CurveViewDoneCallback]
+Class="Function"
+Prototype="int CurveViewDoneCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curve.c:1126:1"
+
+[curve_UpdateViewGraph]
+Class="Function"
+Prototype="void curve_UpdateViewGraph(struct curveType *curve);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curve.c:1142:1"
+
+[curve_UpdateViewPanel]
+Class="Function"
+Prototype="void curve_UpdateViewPanel(struct curveType *curve, int pts2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curve.c:1183:1"
+
+[curve_InitViewPanel]
+Class="Function"
+Prototype="void curve_InitViewPanel(int pts2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curve.c:1250:1"
+
+[curvelist_GetItem]
+Class="Function"
+Prototype="struct curveType *curvelist_GetItem(struct listType list, int i);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curve.c:1276:1"
+
+[curvelist_GetSelection]
+Class="Function"
+Prototype="struct curveType *curvelist_GetSelection();"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curve.c:1282:1"
+
+[curvelist_Copy]
+Class="Function"
+Prototype="void curvelist_Copy(struct listType curves, int panel, int control, int pulldown);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curve.c:1290:1"
+
+[curvelist_UpdatePanel]
+Class="Function"
+Prototype="void curvelist_UpdatePanel(struct CT curves);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curve.c:1315:1"
+
+[curvelist_AddCurve]
+Class="Function"
+Prototype="void curvelist_AddCurve(struct CT *curves, struct curveType *c);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curve.c:1336:1"
+
+[curvelist_ReplaceCurve]
+Class="Function"
+Prototype="void curvelist_ReplaceCurve(struct curveType *c);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curve.c:1352:1"
+
+[curvelist_RemoveCurve]
+Class="Function"
+Prototype="void curvelist_RemoveCurve(struct CT *curves, struct curveType *c);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curve.c:1369:1"
+
+[curve_CopyAttrs]
+Class="Function"
+Prototype="void curve_CopyAttrs(struct curveType *curve, struct curveType *copy);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curve.c:1386:1"
+
+[curve_Load]
+Class="Function"
+Prototype="struct curveType *curve_Load(char *graphtitle);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curve.c:1399:1"
+
+[curve_Save]
+Class="Function"
+Prototype="void curve_Save(struct curveType *c);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curve.c:1451:1"
+
+[curve_Hide]
+Class="Function"
+Prototype="void curve_Hide(int panel, int control, struct curveType *c, int delayed);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curve.c:1468:1"
+
+[curve_Plot]
+Class="Function"
+Prototype="void curve_Plot(int panel, int control, struct curveType *c, void *graphP);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curve.c:1480:1"
+
+[curve_Create]
+Class="Function"
+Prototype="struct curveType *curve_Create();"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curve.c:1511:1"
+
+[curvelist_Init]
+Class="Function"
+Prototype="void curvelist_Init(struct CT *curves);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curve.c:1539:1"
+
+[curveG_Init]
+Class="Function"
+Prototype="void curveG_Init(int graph, int control, char *title, struct CT *curves);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curve.c:1547:1"
+
+[curve_Exit]
+Class="Function"
+Prototype="void curve_Exit();"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\curve.c:1555:1"
+

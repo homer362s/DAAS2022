@@ -1,0 +1,140 @@
+[util_OpenFile]
+Class="Function"
+Prototype="int util_OpenFile(char *path, int action, int ascii);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\util.c:53:1"
+
+[util_CloseFile]
+Class="Function"
+Prototype="void util_CloseFile();"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\util.c:103:1"
+
+[util_SaveNote]
+Class="Function"
+Prototype="void util_SaveNote(char *note);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\util.c:112:1"
+
+[util_LoadNote]
+Class="Function"
+Prototype="void util_LoadNote(char *note);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\util.c:119:1"
+
+[util_DiscardCallback]
+Class="Function"
+Prototype="int util_DiscardCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\util.c:135:1"
+
+[util_HidePanelOnLoseFocus]
+Class="Function"
+Prototype="int util_HidePanelOnLoseFocus(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\util.c:144:1"
+
+[util_NoteCallback]
+Class="Function"
+Prototype="int util_NoteCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\util.c:151:1"
+
+[util_IncAcqPt]
+Class="Function"
+Prototype="void util_IncAcqPt();"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\util.c:162:1"
+
+[util_InitClose]
+Class="Function"
+Prototype="void util_InitClose(int panel, int control, int visible);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\util.c:169:1"
+
+[util_OutofMemory]
+Class="Function"
+Prototype="void util_OutofMemory(char *header);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\util.c:177:1"
+
+[util_Delay]
+Class="Function"
+Prototype="void util_Delay(double sec);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\util.c:182:1"
+
+[util_TakingData]
+Class="Function"
+Prototype="int util_TakingData();"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\util.c:188:1"
+
+[util_GetProgInfoStr]
+Class="Function"
+Prototype="char *util_GetProgInfoStr();"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\util.c:196:1"
+
+[utilG_Init]
+Class="Function"
+Prototype="void utilG_Init(void (*DiscardPanels)(void));"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\util.c:208:1"
+
+[utilG_Exit]
+Class="Function"
+Prototype="void utilG_Exit();"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\util.c:280:1"
+
+[util_HidePanelCallback]
+Class="Function"
+Prototype="int util_HidePanelCallback(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\util.c:286:1"
+
+[util_DiscardPanelCallback]
+Class="Function"
+Prototype="int util_DiscardPanelCallback(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\util.c:292:1"
+
+[util_ChangeInitMessage]
+Class="Function"
+Prototype="void util_ChangeInitMessage(char *msg);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\util.c:299:1"
+
+[util_WriteLog]
+Class="Function"
+Prototype="void util_WriteLog(char *txt);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\util.c:307:1"
+
+[util_WriteLogLine]
+Class="Function"
+Prototype="void util_WriteLogLine(char *txt);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\util.c:311:1"
+
+[util_printfLog]
+Class="Function"
+Prototype="void util_printfLog(const char *format, ...);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\util.c:315:1"
+
+[util_RemoveInitMessage]
+Class="Function"
+Prototype="void util_RemoveInitMessage();"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\util.c:326:1"
+
+[BGDoneCallback]
+Class="Function"
+Prototype="int BGDoneCallback(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\util.c:333:1"
+
+[util_formatParse]
+Class="Function"
+Prototype="void *util_formatParse(char *format, char **list, char *msg, int index);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\util.c:373:1"
+
+[util_formatParseRead]
+Class="Function"
+Prototype="void util_formatParseRead(char *format, char **list, char *msg, int index);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\util.c:422:1"
+
+[util_MessagePopup]
+Class="Function"
+Prototype="void util_MessagePopup(char *Title, char *Message, ...);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\util.c:449:1"
+
+[util_ErrorCloseCallback]
+Class="Function"
+Prototype="int util_ErrorCloseCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\util.c:474:1"
+
+[util_LogPanelCallback]
+Class="Function"
+Prototype="int util_LogPanelCallback(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\util.c:482:1"
+

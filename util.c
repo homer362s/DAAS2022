@@ -195,7 +195,7 @@ int util_TakingData (void)
 
 char * util_GetProgInfoStr(){
    static char *strRet; 
-   strRet = StrDup("DAAS ( Ver. ");
+   strRet = StrDup("DAAS ( Vers. ");
    AppendString(&strRet, _TARGET_PRODUCT_VERSION_, -1);  
    AppendString(&strRet, " ", -1);  
    AppendString(&strRet, _CVI_CONFIGURATION_NAME_, -1);  

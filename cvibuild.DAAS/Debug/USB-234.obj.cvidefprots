@@ -1,0 +1,65 @@
+[USB234_PanelCallback]
+Class="Function"
+Prototype="int USB234_PanelCallback(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\USB-234.c:61:1"
+
+[USB234_ControlCallback]
+Class="Function"
+Prototype="int USB234_ControlCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\USB-234.c:78:1"
+
+[USB234_MenuCallback]
+Class="Function"
+Prototype="void USB234_MenuCallback(int menbar, int menuItem, void *callbackData, int panel);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\USB-234.c:136:1"
+
+[USB234_MeasureControlCallback]
+Class="Function"
+Prototype="int USB234_MeasureControlCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\USB-234.c:201:1"
+
+[USB234_IndexFromRange]
+Class="Function"
+Prototype="int USB234_IndexFromRange(int val);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\USB-234.c:262:1"
+
+[USB234_UpdateMeasurePanel]
+Class="Function"
+Prototype="void USB234_UpdateMeasurePanel(struct port *port);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\USB-234.c:273:1"
+
+[USB234_Create]
+Class="Function"
+Prototype="void USB234_Create(struct MCCdevType *dev);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\USB-234.c:285:1"
+
+[USB234_Remove]
+Class="Function"
+Prototype="void USB234_Remove(void *ptr);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\USB-234.c:320:1"
+
+[USB234Operate]
+Class="Function"
+Prototype="void USB234Operate(int menubar, int menuItem, void *callbackData, int panel);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\USB-234.c:337:1"
+
+[USB234_UpdateReadings]
+Class="Function"
+Prototype="void USB234_UpdateReadings(int panel, void *ptr);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\USB-234.c:372:1"
+
+[USB234_Save]
+Class="Function"
+Prototype="void USB234_Save(struct MCCdevType *dev);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\USB-234.c:393:1"
+
+[USB234_Load]
+Class="Function"
+Prototype="void USB234_Load(struct MCCdevType *dev);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\USB-234.c:402:1"
+
+[USB234_Init]
+Class="Function"
+Prototype="void USB234_Init();"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\USB-234.c:417:1"
+

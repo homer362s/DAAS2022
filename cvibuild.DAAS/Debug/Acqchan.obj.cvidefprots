@@ -1,0 +1,205 @@
+[TimeAcqChannelsCallback]
+Class="Function"
+Prototype="int TimeAcqChannelsCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\Acqchan.c:82:1"
+
+[IndexAcqChannelsCallback]
+Class="Function"
+Prototype="int IndexAcqChannelsCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\Acqchan.c:104:1"
+
+[RemoveAcqChanCallback]
+Class="Function"
+Prototype="int RemoveAcqChanCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\Acqchan.c:126:1"
+
+[MoveDownAcqChanCallback]
+Class="Function"
+Prototype="int MoveDownAcqChanCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\Acqchan.c:146:1"
+
+[MoveUpAcqChanCallback]
+Class="Function"
+Prototype="int MoveUpAcqChanCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\Acqchan.c:167:1"
+
+[SelectAcqChanCallback]
+Class="Function"
+Prototype="int SelectAcqChanCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\Acqchan.c:189:1"
+
+[AcqDataCallback]
+Class="Function"
+Prototype="int AcqDataCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\Acqchan.c:278:1"
+
+[AcqDataNoteCallback]
+Class="Function"
+Prototype="int AcqDataNoteCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\Acqchan.c:300:1"
+
+[AcqDataPanelCallback]
+Class="Function"
+Prototype="int AcqDataPanelCallback(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\Acqchan.c:317:1"
+
+[acqchanlist_CopytoChannelList]
+Class="Function"
+Prototype="void acqchanlist_CopytoChannelList();"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\Acqchan.c:347:1"
+
+[acqchanlist_GetandSaveReadings]
+Class="Function"
+Prototype="void acqchanlist_GetandSaveReadings();"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\Acqchan.c:374:1"
+
+[acqchanlist_CloseFile]
+Class="Function"
+Prototype="void acqchanlist_CloseFile();"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\Acqchan.c:405:1"
+
+[acqchanlist_InitDataFile]
+Class="Function"
+Prototype="void acqchanlist_InitDataFile(char *path);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\Acqchan.c:411:1"
+
+[acqchanlist_AllocMemory]
+Class="Function"
+Prototype="int acqchanlist_AllocMemory();"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\Acqchan.c:432:1"
+
+[acqchanlist_Dimmed]
+Class="Function"
+Prototype="void acqchanlist_Dimmed(int dimmed);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\Acqchan.c:448:1"
+
+[DAASAcqChannelsCallback]
+Class="Function"
+Prototype="int DAASAcqChannelsCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\Acqchan.c:459:1"
+
+[acqchanlist_UpdatePanel]
+Class="Function"
+Prototype="void acqchanlist_UpdatePanel();"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\Acqchan.c:468:1"
+
+[acqchanlist_ReplaceChannel]
+Class="Function"
+Prototype="void acqchanlist_ReplaceChannel(struct acqchanStruct *chan);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\Acqchan.c:481:1"
+
+[acqchanlist_RemoveChannel]
+Class="Function"
+Prototype="void acqchanlist_RemoveChannel(struct acqchanStruct *chan);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\Acqchan.c:491:1"
+
+[acqchanlist_AddChannel]
+Class="Function"
+Prototype="void acqchanlist_AddChannel(struct acqchanStruct *chan);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\Acqchan.c:503:1"
+
+[acqchanlist_Copy]
+Class="Function"
+Prototype="void acqchanlist_Copy(int panel, int control);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\Acqchan.c:512:1"
+
+[acqchanlist_FindItem]
+Class="Function"
+Prototype="int acqchanlist_FindItem(struct acqchanStruct *chan);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\Acqchan.c:524:1"
+
+[acqchanlist_GetSelection]
+Class="Function"
+Prototype="struct acqchanStruct *acqchanlist_GetSelection();"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\Acqchan.c:529:1"
+
+[acqchanNote_GetItem]
+Class="Function"
+Prototype="struct acqchanStruct *acqchanNote_GetItem(int i);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\Acqchan.c:536:1"
+
+[acqchanlist_GetItem]
+Class="Function"
+Prototype="struct acqchanStruct *acqchanlist_GetItem(int i);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\Acqchan.c:543:1"
+
+[acqchanlist_GetItemByTitle]
+Class="Function"
+Prototype="struct acqchanStruct *acqchanlist_GetItemByTitle(char *label);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\Acqchan.c:550:1"
+
+[acqchan_GetTime]
+Class="Function"
+Prototype="void acqchan_GetTime(struct acqchanStruct *acqchan);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\Acqchan.c:566:1"
+
+[acqchan_GetIndex]
+Class="Function"
+Prototype="void acqchan_GetIndex(struct acqchanStruct *acqchan);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\Acqchan.c:572:1"
+
+[acqchan_Load]
+Class="Function"
+Prototype="void acqchan_Load(void *dev, struct acqchanStruct *acqchan);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\Acqchan.c:579:1"
+
+[acqchan_Save]
+Class="Function"
+Prototype="void acqchan_Save(struct acqchanStruct *acqchan);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\Acqchan.c:601:1"
+
+[acqchan_UpdateReadingPanel]
+Class="Function"
+Prototype="void acqchan_UpdateReadingPanel(struct acqchanStruct *acqchan);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\Acqchan.c:609:1"
+
+[acqchan_RemoveGraph]
+Class="Function"
+Prototype="void acqchan_RemoveGraph(struct acqchanStruct *chan, void *item);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\Acqchan.c:619:1"
+
+[acqchan_AddGraph]
+Class="Function"
+Prototype="void acqchan_AddGraph(struct acqchanStruct *chan, void *item);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\Acqchan.c:627:1"
+
+[acqchan_DoMeasurement]
+Class="Function"
+Prototype="void acqchan_DoMeasurement(struct acqchanStruct *chan);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\Acqchan.c:632:1"
+
+[acqchan_Measurement]
+Class="Function"
+Prototype="double acqchan_Measurement(double reading, double coeff, int conversion);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\Acqchan.c:644:1"
+
+[acqchan_MeasurementArray]
+Class="Function"
+Prototype="double **acqchan_MeasurementArray(double *readings, double coeff, int conversion, int pts);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\Acqchan.c:673:1"
+
+[acqchan_MeasurementArrayFree]
+Class="Function"
+Prototype="void acqchan_MeasurementArrayFree(double **measurement);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\Acqchan.c:685:1"
+
+[acqchan_Create]
+Class="Function"
+Prototype="struct acqchanStruct *acqchan_Create(char *label, void *dev, void (*GetReading)(struct acqchanStruct *));"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\Acqchan.c:692:1"
+
+[acqchan_Init]
+Class="Function"
+Prototype="void acqchan_Init();"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\Acqchan.c:724:1"
+
+[acqchan_Remove]
+Class="Function"
+Prototype="void acqchan_Remove(struct acqchanStruct *chan);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\Acqchan.c:751:1"
+
+[acqchan_Exit]
+Class="Function"
+Prototype="void acqchan_Exit();"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\Acqchan.c:763:1"
+

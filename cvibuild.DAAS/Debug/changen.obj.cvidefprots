@@ -1,0 +1,155 @@
+[changen_Init]
+Class="Function"
+Prototype="void changen_Init();"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\changen.c:53:1"
+
+[InitGaussCallback]
+Class="Function"
+Prototype="void InitGaussCallback(int menubar, int menuItem, void *callbackData, int panel);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\changen.c:80:1"
+
+[GenGaussCallback]
+Class="Function"
+Prototype="int GenGaussCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\changen.c:85:1"
+
+[InitWhiteCallback]
+Class="Function"
+Prototype="void InitWhiteCallback(int menubar, int menuItem, void *callbackData, int panel);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\changen.c:107:1"
+
+[GenWhiteCallback]
+Class="Function"
+Prototype="int GenWhiteCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\changen.c:112:1"
+
+[InitUniformCallback]
+Class="Function"
+Prototype="void InitUniformCallback(int menubar, int menuItem, void *callbackData, int panel);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\changen.c:134:1"
+
+[GenUniformCallback]
+Class="Function"
+Prototype="int GenUniformCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\changen.c:139:1"
+
+[InitTriangleWvfmCallback]
+Class="Function"
+Prototype="void InitTriangleWvfmCallback(int menubar, int menuItem, void *callbackData, int panel);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\changen.c:159:1"
+
+[GenTriangleWvfmCallback]
+Class="Function"
+Prototype="int GenTriangleWvfmCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\changen.c:164:1"
+
+[InitSquareCallback]
+Class="Function"
+Prototype="void InitSquareCallback(int menubar, int menuItem, void *callbackData, int panel);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\changen.c:187:1"
+
+[GenSquareCallback]
+Class="Function"
+Prototype="int GenSquareCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\changen.c:192:1"
+
+[InitSincCallback]
+Class="Function"
+Prototype="void InitSincCallback(int menubar, int menuItem, void *callbackData, int panel);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\changen.c:216:1"
+
+[GenSincCallback]
+Class="Function"
+Prototype="int GenSincCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\changen.c:221:1"
+
+[InitSineCallback]
+Class="Function"
+Prototype="void InitSineCallback(int menubar, int menuItem, void *callbackData, int panel);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\changen.c:244:1"
+
+[GenSineCallback]
+Class="Function"
+Prototype="int GenSineCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\changen.c:249:1"
+
+[InitSawtoothCallback]
+Class="Function"
+Prototype="void InitSawtoothCallback(int menubar, int menuItem, void *callbackData, int panel);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\changen.c:272:1"
+
+[GenSawtoothCallback]
+Class="Function"
+Prototype="int GenSawtoothCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\changen.c:277:1"
+
+[InitChirpCallback]
+Class="Function"
+Prototype="void InitChirpCallback(int menubar, int menuItem, void *callbackData, int panel);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\changen.c:300:1"
+
+[GenChirpCallback]
+Class="Function"
+Prototype="int GenChirpCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\changen.c:305:1"
+
+[InitSinePatternCallback]
+Class="Function"
+Prototype="void InitSinePatternCallback(int menubar, int menuItem, void *callbackData, int panel);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\changen.c:328:1"
+
+[GenSinePatternCallback]
+Class="Function"
+Prototype="int GenSinePatternCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\changen.c:333:1"
+
+[InitTriangleCallback]
+Class="Function"
+Prototype="void InitTriangleCallback(int menubar, int menuItem, void *callbackData, int panel);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\changen.c:356:1"
+
+[GenTriangleCallback]
+Class="Function"
+Prototype="int GenTriangleCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\changen.c:361:1"
+
+[InitRampCallback]
+Class="Function"
+Prototype="void InitRampCallback(int menubar, int menuItem, void *callbackData, int panel);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\changen.c:381:1"
+
+[GenRampCallback]
+Class="Function"
+Prototype="int GenRampCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\changen.c:386:1"
+
+[InitPulseCallback]
+Class="Function"
+Prototype="void InitPulseCallback(int menubar, int menuItem, void *callbackData, int panel);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\changen.c:407:1"
+
+[GenPulseCallback]
+Class="Function"
+Prototype="int GenPulseCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\changen.c:412:1"
+
+[InitImpulseCallback]
+Class="Function"
+Prototype="void InitImpulseCallback(int menubar, int menuItem, void *callbackData, int panel);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\changen.c:434:1"
+
+[GenImpulseCallback]
+Class="Function"
+Prototype="int GenImpulseCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\changen.c:439:1"
+
+[InitConstantCallback]
+Class="Function"
+Prototype="void InitConstantCallback(int menubar, int menuItem, void *callbackData, int panel);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\changen.c:460:1"
+
+[GenConstantCallback]
+Class="Function"
+Prototype="int GenConstantCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\changen.c:465:1"
+

@@ -1,0 +1,25 @@
+[boards_DigitalSourceInit]
+Class="Function"
+Prototype="void boards_DigitalSourceInit(struct port *port);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\digitalSource.c:35:1"
+
+[boards_DigitalSourceControlCallback]
+Class="Function"
+Prototype="int boards_DigitalSourceControlCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\digitalSource.c:63:1"
+
+[boards_DigitalSourceFeedbakCallback]
+Class="Function"
+Prototype="int boards_DigitalSourceFeedbakCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\digitalSource.c:82:1"
+
+[boards_DigitalSourcePanelCallback]
+Class="Function"
+Prototype="int boards_DigitalSourcePanelCallback(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\digitalSource.c:92:1"
+
+[boards_DigitalSourceUpdate]
+Class="Function"
+Prototype="void boards_DigitalSourceUpdate(int panel, void *ptr);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\digitalSource.c:103:1"
+

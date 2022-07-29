@@ -1,0 +1,80 @@
+[SetHP33120aFreqLvl]
+Class="Function"
+Prototype="void SetHP33120aFreqLvl(struct sourceStruct *src);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\HP33120A.c:83:1"
+
+[GetHP33120aFreqLvl]
+Class="Function"
+Prototype="void GetHP33120aFreqLvl(struct acqchanStruct *acqchan);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\HP33120A.c:95:1"
+
+[SetHP33120aAmplLvl]
+Class="Function"
+Prototype="void SetHP33120aAmplLvl(struct sourceStruct *src);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\HP33120A.c:100:1"
+
+[GetHP33120aAmplLvl]
+Class="Function"
+Prototype="void GetHP33120aAmplLvl(struct acqchanStruct *acqchan);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\HP33120A.c:112:1"
+
+[hp33120a_UpdateControls]
+Class="Function"
+Prototype="void hp33120a_UpdateControls(int p, struct gpibiostruct *dev);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\HP33120A.c:118:1"
+
+[hp33120aControlCallback]
+Class="Function"
+Prototype="int hp33120aControlCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\HP33120A.c:143:1"
+
+[hp33120aPanelCallback]
+Class="Function"
+Prototype="int hp33120aPanelCallback(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\HP33120A.c:171:1"
+
+[hp33120aMenuCallback]
+Class="Function"
+Prototype="void hp33120aMenuCallback(int menuBar, int menuItem, void *callbackData, int panel);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\HP33120A.c:184:1"
+
+[hp33120a_Create]
+Class="Function"
+Prototype="void *hp33120a_Create(struct gpibiostruct *dev);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\HP33120A.c:203:1"
+
+[hp33120a_InitGPIB]
+Class="Function"
+Prototype="int hp33120a_InitGPIB(struct gpibiostruct *dev);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\HP33120A.c:215:1"
+
+[Operatehp33120a]
+Class="Function"
+Prototype="void Operatehp33120a(int menubar, int menuItem, void *callbackData, int panel);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\HP33120A.c:223:1"
+
+[hp33120a_UpdateReadings]
+Class="Function"
+Prototype="void hp33120a_UpdateReadings(int panel, void *ptr);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\HP33120A.c:261:1"
+
+[hp33120a_Save]
+Class="Function"
+Prototype="void hp33120a_Save(struct gpibiostruct *dev);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\HP33120A.c:270:1"
+
+[hp33120a_Load]
+Class="Function"
+Prototype="void hp33120a_Load(struct gpibiostruct *dev);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\HP33120A.c:283:1"
+
+[hp33120a_Remove]
+Class="Function"
+Prototype="void hp33120a_Remove(void *ptr);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\HP33120A.c:316:1"
+
+[hp33120a_Init]
+Class="Function"
+Prototype="void hp33120a_Init();"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\HP33120A.c:326:1"
+

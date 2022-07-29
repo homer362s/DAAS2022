@@ -1,0 +1,40 @@
+[acqcurve_MakeCurve]
+Class="Function"
+Prototype="struct curveType *acqcurve_MakeCurve(int n, char *title, struct acqcurveType *acqcurve);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\Acqcrv.c:34:1"
+
+[AcqCurveControlCallback]
+Class="Function"
+Prototype="int AcqCurveControlCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\Acqcrv.c:104:1"
+
+[acqcurve_Plot]
+Class="Function"
+Prototype="void acqcurve_Plot(void *graphP, int panel, int control, struct acqcurveType *acqcurve);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\Acqcrv.c:183:1"
+
+[acqcurve_Hide]
+Class="Function"
+Prototype="void acqcurve_Hide(int panel, int control, struct acqcurveType *acqcurve);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\Acqcrv.c:212:1"
+
+[acqcurve_PlotReading]
+Class="Function"
+Prototype="void acqcurve_PlotReading(void *graphP, int panel, int control, struct acqcurveType *acqcurve);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\Acqcrv.c:223:1"
+
+[acqcurve_Init]
+Class="Function"
+Prototype="void acqcurve_Init(struct acqcurveType *acqcurve);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\Acqcrv.c:243:1"
+
+[acqcurve_findGraph]
+Class="Function"
+Prototype="void acqcurve_findGraph(struct acqcurveType *acqP, struct graphType **grPP);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\Acqcrv.c:269:1"
+
+[acqcurve_findPanel]
+Class="Function"
+Prototype="int acqcurve_findPanel(void *graphP);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\Acqcrv.c:288:1"
+

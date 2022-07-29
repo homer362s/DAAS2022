@@ -1,0 +1,95 @@
+[rs232Write]
+Class="Function"
+Prototype="int rs232Write(struct rs232Type *dev, char *format, ...);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\rs232.c:77:1"
+
+[rs232Read]
+Class="Function"
+Prototype="int rs232Read(struct rs232Type *dev, char *format, ...);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\rs232.c:97:1"
+
+[rsSetupCallback]
+Class="Function"
+Prototype="void rsSetupCallback(int menubar, int menuItem, void *callbackData, int panel);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\rs232.c:127:1"
+
+[rs232SetupControlCallback]
+Class="Function"
+Prototype="int rs232SetupControlCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\rs232.c:133:1"
+
+[AddDevCallback]
+Class="Function"
+Prototype="int AddDevCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\rs232.c:240:1"
+
+[rsDevType_Update]
+Class="Function"
+Prototype="void rsDevType_Update();"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\rs232.c:328:1"
+
+[rsDevTypeItem_AddItem]
+Class="Function"
+Prototype="void rsDevTypeItem_AddItem(struct rsDevTypeItem *devType);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\rs232.c:363:1"
+
+[rsDevList_Update]
+Class="Function"
+Prototype="void rsDevList_Update();"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\rs232.c:394:1"
+
+[rsDevList_AddItem]
+Class="Function"
+Prototype="void rsDevList_AddItem(struct rs232Type *dev);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\rs232.c:421:1"
+
+[rsDevList_RemoveItem]
+Class="Function"
+Prototype="void rsDevList_RemoveItem(struct rs232Type *dev, int i);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\rs232.c:426:1"
+
+[rsDevList_SaveItem]
+Class="Function"
+Prototype="void rsDevList_SaveItem(struct rs232Type *dev);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\rs232.c:439:1"
+
+[rsDevList_LoadItem]
+Class="Function"
+Prototype="int rsDevList_LoadItem();"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\rs232.c:455:1"
+
+[comPort_Update]
+Class="Function"
+Prototype="void comPort_Update(struct comType *com);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\rs232.c:525:1"
+
+[GenInstControlCallback]
+Class="Function"
+Prototype="int GenInstControlCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\rs232.c:608:1"
+
+[rs232_Create]
+Class="Function"
+Prototype="struct rs232Type *rs232_Create(struct rsDevTypeItem *devType, char *label, struct comType *com, int logio);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\rs232.c:666:1"
+
+[rs232_Remove]
+Class="Function"
+Prototype="void rs232_Remove(void *dev);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\rs232.c:691:1"
+
+[rs232Operate]
+Class="Function"
+Prototype="void rs232Operate(int menubar, int menuItem, void *callbackData, int panel);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\rs232.c:697:1"
+
+[rs232_InitIO]
+Class="Function"
+Prototype="int rs232_InitIO(struct rs232Type *dev);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\rs232.c:708:1"
+
+[rs232_Init]
+Class="Function"
+Prototype="void rs232_Init();"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\rs232.c:713:1"
+

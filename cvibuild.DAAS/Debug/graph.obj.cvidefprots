@@ -1,0 +1,230 @@
+[graphG_Init]
+Class="Function"
+Prototype="void graphG_Init();"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\graph.c:84:1"
+
+[PrintGraphCallback]
+Class="Function"
+Prototype="int PrintGraphCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\graph.c:100:1"
+
+[LoadGraphCallback]
+Class="Function"
+Prototype="int LoadGraphCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\graph.c:116:1"
+
+[SaveGraphCallback]
+Class="Function"
+Prototype="int SaveGraphCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\graph.c:157:1"
+
+[RemoveGraphCallback]
+Class="Function"
+Prototype="int RemoveGraphCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\graph.c:183:1"
+
+[SelectGraphCallback]
+Class="Function"
+Prototype="int SelectGraphCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\graph.c:197:1"
+
+[CreateGraphCallback]
+Class="Function"
+Prototype="int CreateGraphCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\graph.c:219:1"
+
+[ShowGraphsPanelCallback]
+Class="Function"
+Prototype="int ShowGraphsPanelCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\graph.c:234:1"
+
+[graphlist_UpdatePanel]
+Class="Function"
+Prototype="void graphlist_UpdatePanel();"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\graph.c:244:1"
+
+[graphlist_GetItem]
+Class="Function"
+Prototype="struct graphType *graphlist_GetItem(int i);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\graph.c:252:1"
+
+[graphlist_GetSelection]
+Class="Function"
+Prototype="struct graphType *graphlist_GetSelection();"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\graph.c:260:1"
+
+[graphlist_AddGraph]
+Class="Function"
+Prototype="void graphlist_AddGraph(struct graphType *graph);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\graph.c:267:1"
+
+[graphlist_RemoveGraph]
+Class="Function"
+Prototype="void graphlist_RemoveGraph(struct graphType *graph);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\graph.c:275:1"
+
+[graphlist_PlotReadings]
+Class="Function"
+Prototype="void graphlist_PlotReadings();"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\graph.c:310:1"
+
+[graphlist_RemoveReadings]
+Class="Function"
+Prototype="void graphlist_RemoveReadings();"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\graph.c:320:1"
+
+[graphlist_PlotCurves]
+Class="Function"
+Prototype="void graphlist_PlotCurves();"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\graph.c:330:1"
+
+[graphlist_AutoSave]
+Class="Function"
+Prototype="void graphlist_AutoSave();"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\graph.c:351:1"
+
+[graphlist_Copy]
+Class="Function"
+Prototype="void graphlist_Copy(int panel, int control);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\graph.c:369:1"
+
+[graph_ReplotCurvesWithConv]
+Class="Function"
+Prototype="void graph_ReplotCurvesWithConv(struct graphType *graph);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\graph.c:381:1"
+
+[graph_Save]
+Class="Function"
+Prototype="void graph_Save(struct graphType *graph);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\graph.c:405:1"
+
+[graph_Load]
+Class="Function"
+Prototype="struct graphType *graph_Load();"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\graph.c:426:1"
+
+[graph_Create]
+Class="Function"
+Prototype="struct graphType *graph_Create(char *title);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\graph.c:478:1"
+
+[graph_Remove]
+Class="Function"
+Prototype="void graph_Remove(struct graphType *graph);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\graph.c:536:1"
+
+[graphG_Exit]
+Class="Function"
+Prototype="void graphG_Exit();"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\graph.c:547:1"
+
+[ShowCurvesPanelCallback]
+Class="Function"
+Prototype="int ShowCurvesPanelCallback(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\graph.c:563:1"
+
+[SelectCursorCallback]
+Class="Function"
+Prototype="int SelectCursorCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\graph.c:578:1"
+
+[AcquireCurveControlCallback]
+Class="Function"
+Prototype="int AcquireCurveControlCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\graph.c:629:1"
+
+[AcquireCurveCallback]
+Class="Function"
+Prototype="int AcquireCurveCallback(int panel, int ctrl, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\graph.c:698:1"
+
+[ZoomOutGraphCallback]
+Class="Function"
+Prototype="int ZoomOutGraphCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\graph.c:805:1"
+
+[ZoomInGraphCallback]
+Class="Function"
+Prototype="int ZoomInGraphCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\graph.c:839:1"
+
+[MoveGraphRightCallback]
+Class="Function"
+Prototype="int MoveGraphRightCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\graph.c:884:1"
+
+[MoveGraphLeftCallback]
+Class="Function"
+Prototype="int MoveGraphLeftCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\graph.c:905:1"
+
+[MoveGraphDownCallback]
+Class="Function"
+Prototype="int MoveGraphDownCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\graph.c:926:1"
+
+[MoveGraphUpCallback]
+Class="Function"
+Prototype="int MoveGraphUpCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\graph.c:947:1"
+
+[HomeGraphCallback]
+Class="Function"
+Prototype="int HomeGraphCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\graph.c:968:1"
+
+[GraphPanelCallback]
+Class="Function"
+Prototype="int GraphPanelCallback(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\graph.c:983:1"
+
+[graph_XTextOffset]
+Class="Function"
+Prototype="double graph_XTextOffset();"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\graph.c:1001:1"
+
+[graph_YTextOffset]
+Class="Function"
+Prototype="double graph_YTextOffset();"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\graph.c:1006:1"
+
+[GraphCallback]
+Class="Function"
+Prototype="int GraphCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\graph.c:1011:1"
+
+[AxisControlCallback]
+Class="Function"
+Prototype="int AxisControlCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\graph.c:1279:1"
+
+[PanelClose]
+Class="Function"
+Prototype="int PanelClose(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\graph.c:1436:1"
+
+[graph_UpdateTitle]
+Class="Function"
+Prototype="void graph_UpdateTitle(struct graphType *graph);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\graph.c:1447:1"
+
+[renGraph]
+Class="Function"
+Prototype="void renGraph();"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\graph.c:1461:1"
+
+[RenGraphCallBackOk]
+Class="Function"
+Prototype="int RenGraphCallBackOk(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\graph.c:1467:1"
+
+[RenGraphEntCallback]
+Class="Function"
+Prototype="int RenGraphEntCallback(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\graph.c:1476:1"
+
+[RenGraphCallBackCancel]
+Class="Function"
+Prototype="int RenGraphCallBackCancel(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\user\Desktop\DAAS2022\graph.c:1485:1"
+
