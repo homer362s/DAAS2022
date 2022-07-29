@@ -1,160 +1,128 @@
 [sr844_GetDoubleVal]
 Class="Function"
 Prototype="double sr844_GetDoubleVal(struct gpibiostruct *dev, char *msg);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\Sr844.c:122:1"
 
 [sr844_GetCharVal]
 Class="Function"
 Prototype="void sr844_GetCharVal(struct gpibiostruct *dev, char *msg, char *cmd);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\Sr844.c:132:1"
 
 [sr844_GetIntVal]
 Class="Function"
 Prototype="int sr844_GetIntVal(struct gpibiostruct *dev, char *msg);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\Sr844.c:138:1"
 
 [sr844_CheckClear]
 Class="Function"
 Prototype="void sr844_CheckClear(struct gpibiostruct *dev);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\Sr844.c:147:1"
 
 [OperateReferenceCallback844]
 Class="Function"
 Prototype="int OperateReferenceCallback844(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\Sr844.c:157:1"
 
 [SR844RefCallback]
 Class="Function"
 Prototype="int SR844RefCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\Sr844.c:179:1"
 
 [SR844ControlPanelCallback]
 Class="Function"
 Prototype="int SR844ControlPanelCallback(int panel, int event, void *callbackData, int eventData1, int eventData2);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\Sr844.c:207:1"
 
 [SR844ControlCallback]
 Class="Function"
 Prototype="int SR844ControlCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\Sr844.c:222:1"
 
 [ADCControlCallback844]
 Class="Function"
 Prototype="int ADCControlCallback844(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\Sr844.c:280:1"
 
 [XYMPControlCallback844]
 Class="Function"
 Prototype="int XYMPControlCallback844(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\Sr844.c:332:1"
 
 [sr844_Conv2Sensitivity]
 Class="Function"
 Prototype="double sr844_Conv2Sensitivity(int i);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\Sr844.c:444:1"
 
 [sr844_GetXYRTP]
 Class="Function"
 Prototype="void sr844_GetXYRTP(struct gpibiostruct *dev);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\Sr844.c:455:1"
 
 [sr844_UpdateReadings]
 Class="Function"
 Prototype="void sr844_UpdateReadings(int panel, void *dev);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\Sr844.c:486:1"
 
 [sr844_UpdateControls]
 Class="Function"
 Prototype="void sr844_UpdateControls(int panel, struct gpibiostruct *dev);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\Sr844.c:500:1"
 
 [OperateSR844]
 Class="Function"
 Prototype="void OperateSR844(int menubar, int menuItem, void *callbackData, int panel);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\Sr844.c:511:1"
 
 [sr844_GetLIAReadings]
 Class="Function"
 Prototype="void sr844_GetLIAReadings(struct acqchanStruct *acqchan);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\Sr844.c:551:1"
 
 [sr844_XYRP_UpdateReadings]
 Class="Function"
 Prototype="void sr844_XYRP_UpdateReadings(int panel, void *lia);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\Sr844.c:558:1"
 
 [sr844_GetADCs]
 Class="Function"
 Prototype="void sr844_GetADCs(struct gpibiostruct *dev);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\Sr844.c:569:1"
 
 [sr844_ADC_UpdateReadings]
 Class="Function"
 Prototype="void sr844_ADC_UpdateReadings(int panel, void *dev);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\Sr844.c:583:1"
 
 [sr844_GetDAC]
 Class="Function"
 Prototype="void sr844_GetDAC(struct gpibiostruct *dev, int i, struct sourceStruct *src);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\Sr844.c:595:1"
 
 [sr844_SetDAC]
 Class="Function"
 Prototype="void sr844_SetDAC(struct gpibiostruct *dev, int i, struct sourceStruct *src);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\Sr844.c:604:1"
 
 [sr844_SetFREQ]
 Class="Function"
 Prototype="void sr844_SetFREQ(struct sourceStruct *src);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\Sr844.c:613:1"
 
 [sr844_GetFREQ]
 Class="Function"
 Prototype="void sr844_GetFREQ(struct acqchanStruct *acqchan);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\Sr844.c:622:1"
 
 [sr844_GetDAC1]
 Class="Function"
 Prototype="void sr844_GetDAC1(struct acqchanStruct *acqchan);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\Sr844.c:632:1"
 
 [sr844_GetDAC2]
 Class="Function"
 Prototype="void sr844_GetDAC2(struct acqchanStruct *acqchan);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\Sr844.c:639:1"
 
 [sr844_SetDAC1]
 Class="Function"
 Prototype="void sr844_SetDAC1(struct sourceStruct *src);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\Sr844.c:647:1"
 
 [sr844_SetDAC2]
 Class="Function"
 Prototype="void sr844_SetDAC2(struct sourceStruct *src);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\Sr844.c:652:1"
 
 [sr844_GetADCReading]
 Class="Function"
 Prototype="void sr844_GetADCReading(struct acqchanStruct *acqchan);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\Sr844.c:657:1"
 
 [sr844_Save]
 Class="Function"
 Prototype="void sr844_Save(struct gpibiostruct *dev);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\Sr844.c:693:1"
 
 [sr844_Load]
 Class="Function"
 Prototype="void sr844_Load(struct gpibiostruct *dev);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\Sr844.c:709:1"
 
 [sr844_Init]
 Class="Function"
 Prototype="void sr844_Init();"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\Sr844.c:746:1"
 
 [sr844_MenuCallback]
 Class="Function"
 Prototype="void sr844_MenuCallback(int menuBar, int menuItem, void *callbackData, int panel);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\Sr844.c:767:1"
 

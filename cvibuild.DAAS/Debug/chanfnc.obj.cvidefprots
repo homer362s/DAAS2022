@@ -1,140 +1,112 @@
 [chanfunc_Init]
 Class="Function"
 Prototype="void chanfunc_Init();"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\chanfnc.c:64:1"
 
 [InitDecimateCallback]
 Class="Function"
 Prototype="void InitDecimateCallback(int menubar, int menuItem, void *callbackData, int panel);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\chanfnc.c:91:1"
 
 [DoDecimateCallback]
 Class="Function"
 Prototype="int DoDecimateCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\chanfnc.c:106:1"
 
 [InitClipCallback]
 Class="Function"
 Prototype="void InitClipCallback(int menubar, int menuItem, void *callbackData, int panel);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\chanfnc.c:140:1"
 
 [DoClipCallback]
 Class="Function"
 Prototype="int DoClipCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\chanfnc.c:155:1"
 
 [ReverseChannelCallback]
 Class="Function"
 Prototype="void ReverseChannelCallback(int menubar, int menuItem, void *callbackData, int panel);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\chanfnc.c:190:1"
 
 [SortChannelCallback]
 Class="Function"
 Prototype="void SortChannelCallback(int menubar, int menuItem, void *callbackData, int panel);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\chanfnc.c:206:1"
 
 [InitSubsetCallback]
 Class="Function"
 Prototype="void InitSubsetCallback(int menubar, int menuItem, void *callbackData, int panel);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\chanfnc.c:246:1"
 
 [SubsetDoneCallback]
 Class="Function"
 Prototype="int SubsetDoneCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\chanfnc.c:262:1"
 
 [CopyChannelCallback]
 Class="Function"
 Prototype="void CopyChannelCallback(int menubar, int menuItem, void *callbackData, int panel);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\chanfnc.c:287:1"
 
 [InitManipulateCallback]
 Class="Function"
 Prototype="void InitManipulateCallback(int menubar, int menuItem, void *callbackData, int panel);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\chanfnc.c:302:1"
 
 [ManipulateGraphCallback]
 Class="Function"
 Prototype="int ManipulateGraphCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\chanfnc.c:351:1"
 
 [ManipulateSelectionCallback]
 Class="Function"
 Prototype="int ManipulateSelectionCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\chanfnc.c:387:1"
 
 [ManipulateReadingCallback]
 Class="Function"
 Prototype="int ManipulateReadingCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\chanfnc.c:402:1"
 
 [QuickScaleCallback]
 Class="Function"
 Prototype="void QuickScaleCallback(int menubar, int menuItem, void *callbackData, int panel);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\chanfnc.c:428:1"
 
 [NormalScaleCallback]
 Class="Function"
 Prototype="void NormalScaleCallback(int menubar, int menuItem, void *callbackData, int panel);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\chanfnc.c:445:1"
 
 [LogCallback]
 Class="Function"
 Prototype="void LogCallback(int menubar, int menuItem, void *callbackData, int panel);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\chanfnc.c:462:1"
 
 [LnCallback]
 Class="Function"
 Prototype="void LnCallback(int menubar, int menuItem, void *callbackData, int panel);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\chanfnc.c:494:1"
 
 [AbsoluteCallback]
 Class="Function"
 Prototype="void AbsoluteCallback(int menubar, int menuItem, void *callbackData, int panel);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\chanfnc.c:526:1"
 
 [InitExponentCallback]
 Class="Function"
 Prototype="void InitExponentCallback(int menubar, int menuItem, void *callbackData, int panel);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\chanfnc.c:541:1"
 
 [DoExponentCallback]
 Class="Function"
 Prototype="int DoExponentCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\chanfnc.c:556:1"
 
 [InverseCallback]
 Class="Function"
 Prototype="void InverseCallback(int menubar, int menuItem, void *callbackData, int panel);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\chanfnc.c:597:1"
 
 [NegativeCallback]
 Class="Function"
 Prototype="void NegativeCallback(int menubar, int menuItem, void *callbackData, int panel);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\chanfnc.c:630:1"
 
 [InitStatisticsCallback]
 Class="Function"
 Prototype="void InitStatisticsCallback(int menubar, int menuItem, void *callbackData, int panel);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\chanfnc.c:646:1"
 
 [DoStatisticsCallback]
 Class="Function"
 Prototype="int DoStatisticsCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\chanfnc.c:666:1"
 
 [SaveStatisticsCallback]
 Class="Function"
 Prototype="int SaveStatisticsCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\chanfnc.c:682:1"
 
 [InitLinEvalCallback]
 Class="Function"
 Prototype="void InitLinEvalCallback(int menubar, int menuItem, void *callbackData, int panel);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\chanfnc.c:758:1"
 
 [DoLinEvalCallback]
 Class="Function"
 Prototype="int DoLinEvalCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\chanfnc.c:773:1"
 

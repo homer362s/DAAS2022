@@ -1,10 +1,8 @@
 [main]
 Class="Function"
 Prototype="int main();"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\DAAS_main.c:50:1"
 
 [AcquireData]
 Class="Function"
 Prototype="int AcquireData(int panel, int control, int event, void *callbackData, int event1, int event2);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\DAAS_main.c:107:1"
 

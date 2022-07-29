@@ -1,45 +1,36 @@
 [onoff_Create]
 Class="Function"
-Prototype="struct onoffType *onoff_Create(int range, int analog_out, int source);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\DDA08.c:66:1"
+Prototype="onoffType *onoff_Create(int range, int analog_out, int source);"
 
 [dda08_ControlCallback]
 Class="Function"
 Prototype="int dda08_ControlCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\DDA08.c:75:1"
 
 [dda08_IndexFromRange]
 Class="Function"
 Prototype="int dda08_IndexFromRange(int val);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\DDA08.c:159:1"
 
 [dda08_Create]
 Class="Function"
-Prototype="void dda08_Create(struct MCCdevType *dev);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\DDA08.c:173:1"
+Prototype="void dda08_Create(MCCdevType *dev);"
 
 [dda08_Remove]
 Class="Function"
 Prototype="void dda08_Remove(void *ptr);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\DDA08.c:203:1"
 
 [dda08Operate]
 Class="Function"
 Prototype="void dda08Operate(int menubar, int menuItem, void *callbackData, int panel);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\DDA08.c:218:1"
 
 [dda08_Save]
 Class="Function"
-Prototype="void dda08_Save(struct MCCdevType *dev);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\DDA08.c:267:1"
+Prototype="void dda08_Save(MCCdevType *dev);"
 
 [dda08_Load]
 Class="Function"
-Prototype="void dda08_Load(struct MCCdevType *dev);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\DDA08.c:275:1"
+Prototype="void dda08_Load(MCCdevType *dev);"
 
 [dda08_Init]
 Class="Function"
 Prototype="void dda08_Init();"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\DDA08.c:288:1"
 

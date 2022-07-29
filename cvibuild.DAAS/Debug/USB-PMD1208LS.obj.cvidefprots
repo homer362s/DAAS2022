@@ -1,85 +1,68 @@
 [usb1208ls_PanelCallback]
 Class="Function"
 Prototype="int usb1208ls_PanelCallback(int panel, int event, void *callbackData, int eventData1, int eventData2);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\USB-PMD1208LS.c:68:1"
 
 [usb1208ls_ControlCallback]
 Class="Function"
 Prototype="int usb1208ls_ControlCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\USB-PMD1208LS.c:85:1"
 
 [usb1208ls_MeasureControlCallback]
 Class="Function"
 Prototype="int usb1208ls_MeasureControlCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\USB-PMD1208LS.c:173:1"
 
 [usb1208ls_MenuCallback]
 Class="Function"
 Prototype="void usb1208ls_MenuCallback(int menubar, int menuItem, void *callbackData, int panel);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\USB-PMD1208LS.c:220:1"
 
 [usb1208ls_UpdateMeasurePanel]
 Class="Function"
 Prototype="void usb1208ls_UpdateMeasurePanel(struct port *port);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\USB-PMD1208LS.c:276:1"
 
 [usb1208ls_IndexFromRange]
 Class="Function"
 Prototype="int usb1208ls_IndexFromRange(int val);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\USB-PMD1208LS.c:287:1"
 
 [usb1208ls_ReadAnalogueOut]
 Class="Function"
 Prototype="void usb1208ls_ReadAnalogueOut(struct acqchanStruct *acqchan);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\USB-PMD1208LS.c:302:1"
 
 [usb1208ls_SetLevel]
 Class="Function"
 Prototype="void usb1208ls_SetLevel(struct sourceStruct *src);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\USB-PMD1208LS.c:358:1"
 
 [usb1208ls_ReadFeedback]
 Class="Function"
 Prototype="void usb1208ls_ReadFeedback(struct acqchanStruct *acqchan);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\USB-PMD1208LS.c:385:1"
 
 [usb1208ls_ReadDigitalFeedback]
 Class="Function"
 Prototype="void usb1208ls_ReadDigitalFeedback(struct acqchanStruct *acqchan);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\USB-PMD1208LS.c:403:1"
 
 [usb1208ls_Create]
 Class="Function"
-Prototype="void usb1208ls_Create(struct MCCdevType *dev);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\USB-PMD1208LS.c:454:1"
+Prototype="void usb1208ls_Create(MCCdevType *dev);"
 
 [usb1208ls_Remove]
 Class="Function"
 Prototype="void usb1208ls_Remove(void *ptr);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\USB-PMD1208LS.c:496:1"
 
 [usb1208lsOperate]
 Class="Function"
 Prototype="void usb1208lsOperate(int menubar, int menuItem, void *callbackData, int panel);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\USB-PMD1208LS.c:519:1"
 
 [usb1208ls_UpdateReadings]
 Class="Function"
 Prototype="void usb1208ls_UpdateReadings(int panel, void *ptr);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\USB-PMD1208LS.c:564:1"
 
 [usb1208ls_Save]
 Class="Function"
-Prototype="void usb1208ls_Save(struct MCCdevType *dev);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\USB-PMD1208LS.c:593:1"
+Prototype="void usb1208ls_Save(MCCdevType *dev);"
 
 [usb1208ls_Load]
 Class="Function"
-Prototype="void usb1208ls_Load(struct MCCdevType *dev);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\USB-PMD1208LS.c:606:1"
+Prototype="void usb1208ls_Load(MCCdevType *dev);"
 
 [usb1208ls_Init]
 Class="Function"
 Prototype="void usb1208ls_Init();"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\USB-PMD1208LS.c:626:1"
 

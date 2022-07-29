@@ -1,55 +1,44 @@
 [k2400_Init]
 Class="Function"
 Prototype="void k2400_Init();"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\K2400.c:88:1"
 
 [LoadK2400Callback]
 Class="Function"
 Prototype="void LoadK2400Callback(int menubar, int menuItem, void *callbackData, int panel);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\K2400.c:202:1"
 
 [SaveK2400Callback]
 Class="Function"
 Prototype="void SaveK2400Callback(int menubar, int menuItem, void *callbackData, int panel);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\K2400.c:224:1"
 
 [K2400MeasControlCallback]
 Class="Function"
 Prototype="int K2400MeasControlCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\K2400.c:241:1"
 
 [K2400MeasureSetupCallback]
 Class="Function"
 Prototype="void K2400MeasureSetupCallback(int menubar, int menuItem, void *callbackData, int panel);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\K2400.c:283:1"
 
 [K2400SourceSetupCallback]
 Class="Function"
 Prototype="void K2400SourceSetupCallback(int menubar, int menuItem, void *callbackData, int panel);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\K2400.c:308:1"
 
 [K2400SourceCallback]
 Class="Function"
 Prototype="int K2400SourceCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\K2400.c:323:1"
 
 [K2400MeasureCallback]
 Class="Function"
 Prototype="int K2400MeasureCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\K2400.c:334:1"
 
 [K2400ControlCallback]
 Class="Function"
 Prototype="int K2400ControlCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\K2400.c:339:1"
 
 [K2400ControlPanelCallback]
 Class="Function"
 Prototype="int K2400ControlPanelCallback(int panel, int event, void *callbackData, int eventData1, int eventData2);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\K2400.c:469:1"
 
 [k2400_GetMode]
 Class="Function"
 Prototype="int k2400_GetMode(struct gpibiostruct *dev);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\K2400.c:978:1"
 

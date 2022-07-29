@@ -1,65 +1,52 @@
 [das1602_PanelCallback]
 Class="Function"
 Prototype="int das1602_PanelCallback(int panel, int event, void *callbackData, int eventData1, int eventData2);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\DAS-1602.c:58:1"
 
 [das1602_ControlCallback]
 Class="Function"
 Prototype="int das1602_ControlCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\DAS-1602.c:75:1"
 
 [das1602_MenuCallback]
 Class="Function"
 Prototype="void das1602_MenuCallback(int menbar, int menuItem, void *callbackData, int panel);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\DAS-1602.c:133:1"
 
 [das1602_MeasureControlCallback]
 Class="Function"
 Prototype="int das1602_MeasureControlCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\DAS-1602.c:179:1"
 
 [das1602_IndexFromRange]
 Class="Function"
 Prototype="int das1602_IndexFromRange(int val);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\DAS-1602.c:226:1"
 
 [das1602_UpdateMeasurePanel]
 Class="Function"
 Prototype="void das1602_UpdateMeasurePanel(struct port *port);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\DAS-1602.c:239:1"
 
 [das1602_Create]
 Class="Function"
-Prototype="void das1602_Create(struct MCCdevType *dev);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\DAS-1602.c:251:1"
+Prototype="void das1602_Create(MCCdevType *dev);"
 
 [das1602_Remove]
 Class="Function"
 Prototype="void das1602_Remove(void *ptr);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\DAS-1602.c:285:1"
 
 [das1602Operate]
 Class="Function"
 Prototype="void das1602Operate(int menubar, int menuItem, void *callbackData, int panel);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\DAS-1602.c:302:1"
 
 [das1602_UpdateReadings]
 Class="Function"
 Prototype="void das1602_UpdateReadings(int panel, void *ptr);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\DAS-1602.c:334:1"
 
 [das1602_Save]
 Class="Function"
-Prototype="void das1602_Save(struct MCCdevType *dev);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\DAS-1602.c:353:1"
+Prototype="void das1602_Save(MCCdevType *dev);"
 
 [das1602_Load]
 Class="Function"
-Prototype="void das1602_Load(struct MCCdevType *dev);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\DAS-1602.c:361:1"
+Prototype="void das1602_Load(MCCdevType *dev);"
 
 [das1602_Init]
 Class="Function"
 Prototype="void das1602_Init();"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\DAS-1602.c:375:1"
 

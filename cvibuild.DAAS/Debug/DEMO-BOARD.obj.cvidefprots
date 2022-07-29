@@ -1,65 +1,52 @@
 [demo_board_PanelCallback]
 Class="Function"
 Prototype="int demo_board_PanelCallback(int panel, int event, void *callbackData, int eventData1, int eventData2);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\DEMO-BOARD.c:58:1"
 
 [demo_board_ControlCallback]
 Class="Function"
 Prototype="int demo_board_ControlCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\DEMO-BOARD.c:75:1"
 
 [demo_board_MenuCallback]
 Class="Function"
 Prototype="void demo_board_MenuCallback(int menbar, int menuItem, void *callbackData, int panel);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\DEMO-BOARD.c:133:1"
 
 [demo_board_MeasureControlCallback]
 Class="Function"
 Prototype="int demo_board_MeasureControlCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\DEMO-BOARD.c:179:1"
 
 [demo_board_IndexFromRange]
 Class="Function"
 Prototype="int demo_board_IndexFromRange(int val);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\DEMO-BOARD.c:226:1"
 
 [demo_board_UpdateMeasurePanel]
 Class="Function"
 Prototype="void demo_board_UpdateMeasurePanel(struct port *port);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\DEMO-BOARD.c:239:1"
 
 [demo_board_Create]
 Class="Function"
-Prototype="void demo_board_Create(struct MCCdevType *dev);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\DEMO-BOARD.c:251:1"
+Prototype="void demo_board_Create(MCCdevType *dev);"
 
 [demo_board_Remove]
 Class="Function"
 Prototype="void demo_board_Remove(void *ptr);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\DEMO-BOARD.c:285:1"
 
 [demo_boardOperate]
 Class="Function"
 Prototype="void demo_boardOperate(int menubar, int menuItem, void *callbackData, int panel);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\DEMO-BOARD.c:302:1"
 
 [demo_board_UpdateReadings]
 Class="Function"
 Prototype="void demo_board_UpdateReadings(int panel, void *ptr);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\DEMO-BOARD.c:334:1"
 
 [demo_board_Save]
 Class="Function"
-Prototype="void demo_board_Save(struct MCCdevType *dev);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\DEMO-BOARD.c:353:1"
+Prototype="void demo_board_Save(MCCdevType *dev);"
 
 [demo_board_Load]
 Class="Function"
-Prototype="void demo_board_Load(struct MCCdevType *dev);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\DEMO-BOARD.c:361:1"
+Prototype="void demo_board_Load(MCCdevType *dev);"
 
 [demo_board_Init]
 Class="Function"
 Prototype="void demo_board_Init();"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\DEMO-BOARD.c:375:1"
 

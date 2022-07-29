@@ -1,45 +1,36 @@
 [k236_Init]
 Class="Function"
 Prototype="void k236_Init();"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\K236.c:81:1"
 
 [LoadK236Callback]
 Class="Function"
 Prototype="void LoadK236Callback(int menubar, int menuItem, void *callbackData, int panel);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\K236.c:187:1"
 
 [SaveK236Callback]
 Class="Function"
 Prototype="void SaveK236Callback(int menubar, int menuItem, void *callbackData, int panel);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\K236.c:209:1"
 
 [K236MeasControlCallback]
 Class="Function"
 Prototype="int K236MeasControlCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\K236.c:226:1"
 
 [K236MeasureSetupCallback]
 Class="Function"
 Prototype="void K236MeasureSetupCallback(int menubar, int menuItem, void *callbackData, int panel);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\K236.c:268:1"
 
 [K236SourceSetupCallback]
 Class="Function"
 Prototype="void K236SourceSetupCallback(int menubar, int menuItem, void *callbackData, int panel);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\K236.c:293:1"
 
 [K236SourceCallback]
 Class="Function"
 Prototype="int K236SourceCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\K236.c:302:1"
 
 [K236ControlCallback]
 Class="Function"
 Prototype="int K236ControlCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\K236.c:313:1"
 
 [K236ControlPanelCallback]
 Class="Function"
 Prototype="int K236ControlPanelCallback(int panel, int event, void *callbackData, int eventData1, int eventData2);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\K236.c:423:1"
 

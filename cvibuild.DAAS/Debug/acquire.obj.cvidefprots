@@ -1,125 +1,100 @@
 [exp_DoGeneralExp]
 Class="Function"
 Prototype="void exp_DoGeneralExp();"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\acquire.c:62:1"
 
 [exp_InitGeneralExp]
 Class="Function"
 Prototype="void exp_InitGeneralExp();"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\acquire.c:69:1"
 
 [exp_UpdateGeneralPanel]
 Class="Function"
 Prototype="void exp_UpdateGeneralPanel();"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\acquire.c:82:1"
 
 [GenExpCallback]
 Class="Function"
 Prototype="void GenExpCallback(int menubar, int menuItem, void *callbackData, int panel);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\acquire.c:88:1"
 
 [exp_Begin]
 Class="Function"
 Prototype="int exp_Begin();"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\acquire.c:106:1"
 
 [acquire_UpdateDataInfoPanel]
 Class="Function"
 Prototype="void acquire_UpdateDataInfoPanel();"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\acquire.c:144:1"
 
 [acquire_UpdatePanelExp]
 Class="Function"
 Prototype="void acquire_UpdatePanelExp();"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\acquire.c:161:1"
 
 [acquire_UpdatePanel]
 Class="Function"
 Prototype="void acquire_UpdatePanel();"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\acquire.c:201:1"
 
 [acquire_GetMenuBar]
 Class="Function"
 Prototype="int acquire_GetMenuBar();"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\acquire.c:237:1"
 
 [acquire_Init]
 Class="Function"
 Prototype="void acquire_Init();"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\acquire.c:242:1"
 
 [acquire_Exit]
 Class="Function"
 Prototype="void acquire_Exit();"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\acquire.c:271:1"
 
 [ExpStatusCallback]
 Class="Function"
 Prototype="void ExpStatusCallback(int menubar, int menuItem, void *callbackData, int panel);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\acquire.c:286:1"
 
 [GenExpControlCallback]
 Class="Function"
 Prototype="int GenExpControlCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\acquire.c:306:1"
 
 [AcqInfoCallback]
 Class="Function"
 Prototype="void AcqInfoCallback(int menubar, int menuItem, void *callbackData, int panel);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\acquire.c:316:1"
 
 [RemoveAcqInfoCallback]
 Class="Function"
 Prototype="int RemoveAcqInfoCallback(int panel, int event, void *callbackData, int eventData1, int eventData2);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\acquire.c:329:1"
 
 [AcqSetupCallback]
 Class="Function"
 Prototype="int AcqSetupCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\acquire.c:339:1"
 
 [DirSelCallback]
 Class="Function"
 Prototype="int DirSelCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\acquire.c:349:1"
 
 [BeepCallback]
 Class="Function"
 Prototype="int BeepCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\acquire.c:366:1"
 
 [acqTimerGetInterval]
 Class="Function"
 Prototype="double acqTimerGetInterval();"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\acquire.c:388:1"
 
 [acqTimerReset]
 Class="Function"
 Prototype="void acqTimerReset();"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\acquire.c:394:1"
 
 [acqTimerSetInterval]
 Class="Function"
 Prototype="void acqTimerSetInterval(double delay_sec);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\acquire.c:401:1"
 
 [exp_StartDaq]
 Class="Function"
 Prototype="extern void exp_StartDaq();"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\acquire.c:411:1"
 
 [acquire_Point]
 Class="Function"
 Prototype="int acquire_Point();"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\acquire.c:419:1"
 
 [acq_timerCallback]
 Class="Function"
 Prototype="int acq_timerCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\acquire.c:427:1"
 
 [DataFileSuffixControlCallback]
 Class="Function"
 Prototype="int DataFileSuffixControlCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\acquire.c:439:1"
 
