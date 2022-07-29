@@ -1,120 +1,96 @@
 [GetHeaterLvl]
 Class="Function"
 Prototype="void GetHeaterLvl(struct acqchanStruct *acqchan);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\LS340.c:84:1"
 
 [SetHeaterLvl]
 Class="Function"
 Prototype="void SetHeaterLvl(struct sourceStruct *src);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\LS340.c:95:1"
 
 [LS340_GetReadings]
 Class="Function"
 Prototype="void LS340_GetReadings(struct acqchanStruct *acqchan);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\LS340.c:103:1"
 
 [GetSensor]
 Class="Function"
 Prototype="void GetSensor(struct acqchanStruct *acqchan);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\LS340.c:110:1"
 
 [LS340_GetABCD]
 Class="Function"
 Prototype="void LS340_GetABCD(struct gpibiostruct *dev);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\LS340.c:154:1"
 
 [LS340_UpdateReadings]
 Class="Function"
 Prototype="void LS340_UpdateReadings(int panel, void *dev);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\LS340.c:184:1"
 
 [LS340_UpdateSensorTabReadings]
 Class="Function"
 Prototype="void LS340_UpdateSensorTabReadings(int panel, void *ptr);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\LS340.c:213:1"
 
 [old_LS340_UpdateReadings]
 Class="Function"
 Prototype="void old_LS340_UpdateReadings(int panel, void *ptr);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\LS340.c:223:1"
 
 [LS340_UpdateHeaterSettings]
 Class="Function"
 Prototype="void LS340_UpdateHeaterSettings(int panel, struct gpibiostruct *dev);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\LS340.c:238:1"
 
 [LS340_InitControls]
 Class="Function"
 Prototype="void LS340_InitControls(int p, struct gpibiostruct *dev);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\LS340.c:253:1"
 
 [LS340ControlPanelCallback]
 Class="Function"
 Prototype="int LS340ControlPanelCallback(int panel, int event, void *callbackData, int eventData1, int eventData2);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\LS340.c:278:1"
 
 [LS340ControlCallback]
 Class="Function"
 Prototype="int LS340ControlCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\LS340.c:332:1"
 
 [LS340HeatControlCallback]
 Class="Function"
 Prototype="int LS340HeatControlCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\LS340.c:417:1"
 
 [LS340SensorControlCallback]
 Class="Function"
 Prototype="int LS340SensorControlCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\LS340.c:508:1"
 
 [LS340SendCurve]
 Class="Function"
 Prototype="int LS340SendCurve(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\LS340.c:559:1"
 
 [LS340menuCallback]
 Class="Function"
 Prototype="void LS340menuCallback(int menuBar, int menuItem, void *callbackData, int panel);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\LS340.c:585:1"
 
 [LS340_Create]
 Class="Function"
 Prototype="void *LS340_Create(struct gpibiostruct *dev);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\LS340.c:686:1"
 
 [oldLS340_Create]
 Class="Function"
 Prototype="void *oldLS340_Create(struct gpibiostruct *dev);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\LS340.c:727:1"
 
 [LS340_InitGPIB]
 Class="Function"
 Prototype="int LS340_InitGPIB(struct gpibiostruct *dev);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\LS340.c:768:1"
 
 [LS340_Save]
 Class="Function"
 Prototype="void LS340_Save(struct gpibiostruct *dev);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\LS340.c:779:1"
 
 [LS340_Load]
 Class="Function"
 Prototype="void LS340_Load(struct gpibiostruct *dev);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\LS340.c:809:1"
 
 [LS340_Remove]
 Class="Function"
 Prototype="void LS340_Remove(void *dev);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\LS340.c:844:1"
 
 [LS340_Init]
 Class="Function"
 Prototype="void LS340_Init();"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\LS340.c:855:1"
 
 [LS340_init_menus_and_controls]
 Class="Function"
 Prototype="void LS340_init_menus_and_controls(int menubar, int menuItem, void *callbackData, int panel);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\LS340.c:933:1"
 

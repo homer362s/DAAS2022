@@ -37,7 +37,7 @@ USB-234.obj
 USB-PMD1208LS.obj
 util.obj
 cvi.lib
-advanlys.lib
+analysis.lib
 gpib.lib
 cvistart.lib
 cbw32.lib

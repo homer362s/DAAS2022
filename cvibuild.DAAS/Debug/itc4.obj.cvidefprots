@@ -1,90 +1,72 @@
 [itc4_GetSensor1]
 Class="Function"
 Prototype="void itc4_GetSensor1(struct acqchanStruct *acqchan);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\itc4.c:75:1"
 
 [itc4_GetSensor2]
 Class="Function"
 Prototype="void itc4_GetSensor2(struct acqchanStruct *acqchan);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\itc4.c:86:1"
 
 [itc4_GetSensor3]
 Class="Function"
 Prototype="void itc4_GetSensor3(struct acqchanStruct *acqchan);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\itc4.c:97:1"
 
 [itc4_GetHeaterLvl]
 Class="Function"
 Prototype="void itc4_GetHeaterLvl(struct acqchanStruct *acqchan);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\itc4.c:108:1"
 
 [itc4_SetHeaterLvl]
 Class="Function"
 Prototype="void itc4_SetHeaterLvl(struct sourceStruct *src);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\itc4.c:121:1"
 
 [itc4PanelCallback]
 Class="Function"
 Prototype="int itc4PanelCallback(int panel, int event, void *callbackData, int eventData1, int eventData2);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\itc4.c:136:1"
 
 [itc4MenuCallback]
 Class="Function"
 Prototype="void itc4MenuCallback(int menuBar, int menuItem, void *callbackData, int panel);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\itc4.c:152:1"
 
 [itc4ControlCallback]
 Class="Function"
 Prototype="int itc4ControlCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\itc4.c:230:1"
 
 [itc4SensorControlCallback]
 Class="Function"
 Prototype="int itc4SensorControlCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\itc4.c:329:1"
 
 [itc4pidControlCallback]
 Class="Function"
 Prototype="int itc4pidControlCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\itc4.c:379:1"
 
 [itc4_Create]
 Class="Function"
-Prototype="void itc4_Create(struct rs232Type *dev);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\itc4.c:421:1"
+Prototype="void itc4_Create(rs232Type *dev);"
 
 [itc4_Remove]
 Class="Function"
 Prototype="void itc4_Remove(void *ptr);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\itc4.c:457:1"
 
 [itc4_InitIO]
 Class="Function"
-Prototype="int itc4_InitIO(struct rs232Type *dev);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\itc4.c:469:1"
+Prototype="int itc4_InitIO(rs232Type *dev);"
 
 [itc4Operate]
 Class="Function"
 Prototype="void itc4Operate(int menubar, int menuItem, void *callbackData, int panel);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\itc4.c:477:1"
 
 [itc4UpdateReadings]
 Class="Function"
 Prototype="void itc4UpdateReadings(int panel, void *ptr);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\itc4.c:516:1"
 
 [itc4_Save]
 Class="Function"
-Prototype="void itc4_Save(struct rs232Type *dev);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\itc4.c:546:1"
+Prototype="void itc4_Save(rs232Type *dev);"
 
 [itc4_Load]
 Class="Function"
-Prototype="void itc4_Load(struct rs232Type *dev);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\itc4.c:558:1"
+Prototype="void itc4_Load(rs232Type *dev);"
 
 [itc4_Init]
 Class="Function"
 Prototype="void itc4_Init();"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\itc4.c:572:1"
 

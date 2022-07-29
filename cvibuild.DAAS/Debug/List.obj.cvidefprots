@@ -1,55 +1,44 @@
 [listG_Init]
 Class="Function"
 Prototype="void listG_Init();"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\List.c:25:1"
 
 [list_Init]
 Class="Function"
-Prototype="void list_Init(struct listType *list);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\List.c:32:1"
+Prototype="void list_Init(listType *list);"
 
 [list_GetNode]
 Class="Function"
-Prototype="struct nodeStruct *list_GetNode(struct listType list, int i);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\List.c:39:1"
+Prototype="struct nodeStruct *list_GetNode(listType list, int i);"
 
 [list_FindItem]
 Class="Function"
-Prototype="int list_FindItem(struct listType list, void *item);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\List.c:50:1"
+Prototype="int list_FindItem(listType list, void *item);"
 
 [list_AddItem]
 Class="Function"
-Prototype="int list_AddItem(struct listType *list, void *item);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\List.c:67:1"
+Prototype="int list_AddItem(listType *list, void *item);"
 
 [list_RemoveItem]
 Class="Function"
-Prototype="void list_RemoveItem(struct listType *list, int i, int trashitem);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\List.c:92:1"
+Prototype="void list_RemoveItem(listType *list, int i, int trashitem);"
 
 [list_RemoveAllItems]
 Class="Function"
-Prototype="void list_RemoveAllItems(struct listType *list, int trashitems);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\List.c:127:1"
+Prototype="void list_RemoveAllItems(listType *list, int trashitems);"
 
 [list_MoveUp]
 Class="Function"
-Prototype="void list_MoveUp(struct listType list, int i);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\List.c:132:1"
+Prototype="void list_MoveUp(listType list, int i);"
 
 [list_MoveDown]
 Class="Function"
-Prototype="void list_MoveDown(struct listType list, int i);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\List.c:146:1"
+Prototype="void list_MoveDown(listType list, int i);"
 
 [list_InitPanel]
 Class="Function"
 Prototype="void list_InitPanel(char *header, char *button);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\List.c:160:1"
 
 [ListSelectAllCallback]
 Class="Function"
 Prototype="int ListSelectAllCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\List.c:172:1"
 

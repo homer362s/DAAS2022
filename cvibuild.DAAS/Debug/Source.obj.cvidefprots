@@ -1,240 +1,192 @@
 [source_Init]
 Class="Function"
 Prototype="void source_Init();"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\Source.c:162:1"
 
 [exp_DoSourceExp]
 Class="Function"
 Prototype="void exp_DoSourceExp();"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\Source.c:183:1"
 
 [exp_UpdateBiasLevels]
 Class="Function"
 Prototype="void exp_UpdateBiasLevels();"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\Source.c:190:1"
 
 [exp_UpdateMarkedGraphs]
 Class="Function"
 Prototype="void exp_UpdateMarkedGraphs(struct sourceStruct *src, int term_seg);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\Source.c:237:1"
 
 [exp_SourceBiasNote]
 Class="Function"
 Prototype="char *exp_SourceBiasNote(struct sourceStruct *src);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\Source.c:287:1"
 
 [exp_InitSourceExp]
 Class="Function"
 Prototype="void exp_InitSourceExp();"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\Source.c:304:1"
 
 [exp_InitAcqCurveMarkers]
 Class="Function"
 Prototype="void exp_InitAcqCurveMarkers();"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\Source.c:311:1"
 
 [exp_ResetBiasLevels]
 Class="Function"
 Prototype="void exp_ResetBiasLevels(int src_index);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\Source.c:339:1"
 
 [AcqCurveSourceMarkerCallback]
 Class="Function"
 Prototype="int AcqCurveSourceMarkerCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\Source.c:359:1"
 
 [updateGraphSource]
 Class="Function"
 Prototype="void updateGraphSource();"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\Source.c:406:1"
 
 [source_MenuCallback]
 Class="Function"
 Prototype="void source_MenuCallback(int menubar, int menuItem, void *callbackData, int panel);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\Source.c:457:1"
 
 [RemoveSourceCallback]
 Class="Function"
 Prototype="int RemoveSourceCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\Source.c:478:1"
 
 [MoveDownSourceCallback]
 Class="Function"
 Prototype="int MoveDownSourceCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\Source.c:495:1"
 
 [MoveUpSourceCallback]
 Class="Function"
 Prototype="int MoveUpSourceCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\Source.c:514:1"
 
 [exp_UpdateSourcePanel]
 Class="Function"
 Prototype="void exp_UpdateSourcePanel();"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\Source.c:531:1"
 
 [SelectSourceCallback]
 Class="Function"
 Prototype="int SelectSourceCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\Source.c:556:1"
 
 [SourceExpCallback]
 Class="Function"
 Prototype="void SourceExpCallback(int menubar, int menuItem, void *callbackData, int panel);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\Source.c:566:1"
 
 [exp_GetSourceSelection]
 Class="Function"
 Prototype="struct sourceStruct *exp_GetSourceSelection();"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\Source.c:590:1"
 
 [sourcelist_ReplaceSource]
 Class="Function"
 Prototype="void sourcelist_ReplaceSource(struct sourceStruct *src);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\Source.c:597:1"
 
 [sourcelist_RemoveSource]
 Class="Function"
 Prototype="void sourcelist_RemoveSource(struct sourceStruct *src);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\Source.c:606:1"
 
 [sourcelist_AddSource]
 Class="Function"
 Prototype="void sourcelist_AddSource(struct sourceStruct *src);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\Source.c:622:1"
 
 [sourcelist_InitAcqCurveSourceList]
 Class="Function"
 Prototype="void sourcelist_InitAcqCurveSourceList(int panel, void *src_marker);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\Source.c:631:1"
 
 [sourcelist_GetItem]
 Class="Function"
 Prototype="struct sourceStruct *sourcelist_GetItem(int i);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\Source.c:647:1"
 
 [sourcelist_GetItemByTitle]
 Class="Function"
 Prototype="struct sourceStruct *sourcelist_GetItemByTitle(char *label);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\Source.c:656:1"
 
 [SaveSourceCallback]
 Class="Function"
 Prototype="int SaveSourceCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\Source.c:670:1"
 
 [LoadSourceCallback]
 Class="Function"
 Prototype="int LoadSourceCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\Source.c:692:1"
 
 [pointArray]
 Class="Function"
 Prototype="int *pointArray(int length, int startVal);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\Source.c:740:1"
 
 [PlotSourceCallback]
 Class="Function"
 Prototype="int PlotSourceCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\Source.c:749:1"
 
 [SourceControlCallback]
 Class="Function"
 Prototype="int SourceControlCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\Source.c:819:1"
 
 [SourceMaxSegCallback]
 Class="Function"
 Prototype="int SourceMaxSegCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\Source.c:896:1"
 
 [source_UpdatePanel]
 Class="Function"
 Prototype="void source_UpdatePanel(int panel, struct sourceStruct *src);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\Source.c:939:1"
 
 [source_InitPanel]
 Class="Function"
 Prototype="void source_InitPanel(struct sourceStruct *src);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\Source.c:997:1"
 
 [source_EndofScan]
 Class="Function"
 Prototype="int source_EndofScan(struct sourceStruct *src);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\Source.c:1038:1"
 
 [source_CalcBiasLevel]
 Class="Function"
 Prototype="void source_CalcBiasLevel(struct sourceStruct *src);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\Source.c:1044:1"
 
 [source_TotalTime]
 Class="Function"
 Prototype="double source_TotalTime(struct sourceStruct *src);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\Source.c:1057:1"
 
 [source_TotalPoints]
 Class="Function"
 Prototype="int source_TotalPoints(struct sourceStruct *src);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\Source.c:1067:1"
 
 [source_UpdateReading]
 Class="Function"
 Prototype="void source_UpdateReading(int panel, void *src);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\Source.c:1077:1"
 
 [source_Load]
 Class="Function"
 Prototype="void source_Load(void *dev, struct sourceStruct *src);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\Source.c:1086:1"
 
 [source_Save]
 Class="Function"
 Prototype="void source_Save(struct sourceStruct *src);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\Source.c:1142:1"
 
 [source_Remove]
 Class="Function"
 Prototype="void source_Remove(struct sourceStruct *src);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\Source.c:1166:1"
 
 [range_Create]
 Class="Function"
-Prototype="struct rangeType *range_Create(double maxVal, double minVal, double resolution);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\Source.c:1176:1"
+Prototype="rangeType *range_Create(double maxVal, double minVal, double resolution);"
 
 [source_Create]
 Class="Function"
 Prototype="struct sourceStruct *source_Create(char *label, void *dev, void (*SetLevel)(struct sourceStruct *), void (*GetReading)(struct acqchanStruct *));"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\Source.c:1185:1"
 
 [SegmentControlCallback]
 Class="Function"
 Prototype="int SegmentControlCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\Source.c:1221:1"
 
 [segment_ErrorCalcPtInc]
 Class="Function"
 Prototype="void segment_ErrorCalcPtInc(double start, double des_start, double stop, double des_stop, double step, double res, int points, double returnArr[2]);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\Source.c:1627:1"
 
 [segment_ErrorCalcStepCorrecion]
 Class="Function"
 Prototype="void segment_ErrorCalcStepCorrecion(double start, double des_start, double stop, double des_stop, double step, double res, int points, double returnArr[2]);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\Source.c:1639:1"
 
 [GenSourceControlCallback]
 Class="Function"
 Prototype="int GenSourceControlCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\Source.c:1733:1"
 
 [gensrc_InitPanel]
 Class="Function"
 Prototype="void gensrc_InitPanel(struct sourceStruct *src);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\Source.c:1783:1"
 
 [AcqCurvePanelCallback]
 Class="Function"
 Prototype="int AcqCurvePanelCallback(int panel, int event, void *callbackData, int eventData1, int eventData2);"
-SourceLocation="c:\Users\user\Desktop\DAAS2022\Source.c:1815:1"
 

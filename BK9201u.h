@@ -25,8 +25,7 @@
 #define  BK9201_MEASURETEXT               10      /* control type: textMsg, callback function: (none) */
 #define  BK9201_TEXT_1                    11      /* control type: textMsg, callback function: (none) */
 #define  BK9201_DECORATION                12      /* control type: deco, callback function: (none) */
-#define  BK9201_IDENTIFY                  13      /* control type: command, callback function: BK9201ControlCallback */
-#define  BK9201_CLEARBRAINS               14      /* control type: command, callback function: BK9201ControlCallback */
+#define  BK9201_CLEARBRAINS               13      /* control type: command, callback function: BK9201ControlCallback */
 
 #define  BK9201_MEA                       2
 #define  BK9201_MEA_LABEL                 2       /* control type: string, callback function: BK9201MeasControlCallback */
